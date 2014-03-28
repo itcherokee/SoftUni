@@ -1,31 +1,25 @@
-﻿namespace OperatorsExpressionsStatements
+﻿namespace ConsoleInOut
 {
     using System;
-    using System.Globalization;
 
     /// <summary>
-    /// Task 2: The gravitational field of the Moon is approximately 17% of that on the Earth. 
-    ///         Write a program that calculates the weight of a man on the moon by a given weight on the Earth.
+    /// Task 3: Write a program that reads the radius r of a circle and prints its perimeter and area 
+    ///         formatted with 2 digits after the decimal point.
     /// </summary>
-    public class WeightOnMoon
+    public class CirclePerimeterAndArea
     {
         public static void Main()
         {
-            Console.Title = "Calculate your weeight on the Moon";
-            double weight = EnterData("What is your weight (kg.): ");
+            Console.Title = "Perimeter and Area of a circle";
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Your weight (kg.) on Moon is: ");
+            double radius = EnterData("Enter the circle radius in order to calculate area and perimeter (cm): ");
+            double perimeter = 2d * Math.PI * radius;
+            double area = Math.PI * radius * radius;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(CalculateWeightOnMoon(weight));
+            Console.WriteLine("The Perimeter is: {0:F2} cm.", perimeter);
+            Console.WriteLine("The Area is: {0:F2} square cm.", area);
             Console.ForegroundColor = ConsoleColor.White;
             Console.ReadKey();
-        }
-
-        private static double CalculateWeightOnMoon(double earthWeight)
-        {
-            const double MoonGravitationalPull = 0.17;
-            double moonWeight = earthWeight * MoonGravitationalPull;
-            return moonWeight;
         }
 
         private static double EnterData(string message)
@@ -34,10 +28,9 @@
             double enteredValue;
             do
             {
-                Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(message);
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                isValidInput = double.TryParse(Console.ReadLine(), NumberStyles.Number, CultureInfo.InvariantCulture, out enteredValue);
+                isValidInput = double.TryParse(Console.ReadLine(), out enteredValue);
                 if (!isValidInput)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;

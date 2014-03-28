@@ -3,55 +3,27 @@
     using System;
 
     /// <summary>
-    /// Task 16: Write a program that exchanges bits {p, p+1, …, p+k-1} with bits {q, q+1, …, q+k-1} of 
-    ///          a given 32-bit unsigned integer. The first and the second sequence of bits may not overlap. 
+    /// Task 15: * Write a program that exchanges bits 3, 4 and 5 with bits 24, 25 and 26 of given 32-bit unsigned integer.
     /// </summary>
-    public class BitsExchangeAdvanced
+    public class BitsExchange
     {
+        internal const int BitCount = 3;
+        internal const int FirstBitRangeStart = 3;
+        internal const int SecondBitRangeStart = 24;
+
         public static void Main()
         {
-            Console.Title = "Exchange 2 groups of \"k\" bits in a given number";
+            Console.Title = "Exchange 2 groups (3-5; 24-26) of 3 bits preselected in a given number";
             uint number = EnterData("Please enter the number to be modified: ");
-            int bitCount = (int)EnterData("How many bits are going to be replaced (k): ");
-            int firstBitRangeStart = (int)EnterData("Enter the first bits group position (p): ");
-            int secondBitRangeStart = (int)EnterData("Enter the second bits group position (q): ");
-
-            // Swap positions if first range is with bigger bit index than second one
-            if (firstBitRangeStart > secondBitRangeStart)
+            uint result = number;
+            for (int index = 0; index < BitCount; index++)
             {
-                firstBitRangeStart ^= secondBitRangeStart;
-                secondBitRangeStart ^= firstBitRangeStart;
-                firstBitRangeStart ^= secondBitRangeStart;
+                result = SwapBit(result, FirstBitRangeStart + index, SecondBitRangeStart + index);
             }
 
-            // Checks for overlapping of bit indexes
-            if (firstBitRangeStart + bitCount < secondBitRangeStart)
-            {
-                // Checks for out of range bit indexes
-                if (firstBitRangeStart + bitCount > sizeof(uint) || secondBitRangeStart + bitCount > sizeof(uint))
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Out of range!");
-                }
-                else
-                {
-                    uint result = number;
-                    for (int index = 0; index < bitCount; index++)
-                    {
-                        result = SwapBit(result, firstBitRangeStart + index, secondBitRangeStart + index);
-                    }
-
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Original binary number {0} ({1})", Convert.ToString(number, 2).PadLeft(32, '0'), number);
-                    Console.WriteLine("Modified binary number {0} ({1})", Convert.ToString(result, 2).PadLeft(32, '0'), result);
-                }
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Overlapping!");
-            }
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Original binary number {0} ({1})", Convert.ToString(number, 2).PadLeft(32, '0'), number);
+            Console.WriteLine("Modified binary number {0} ({1})", Convert.ToString(result, 2).PadLeft(32, '0'), result);
             Console.ForegroundColor = ConsoleColor.White;
             Console.ReadKey();
         }
