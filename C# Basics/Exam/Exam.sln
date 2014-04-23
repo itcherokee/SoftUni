@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLibrary", "HelperLibrary\HelperLibrary.csproj", "{77C212D5-55BA-4EB7-9BA6-137D8B009E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Cinema", "Task1\1.Cinema.csproj", "{AB4EE365-099F-428E-9993-2A7391489742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Illuminati", "Task2\2.Illuminati.csproj", "{5115DB63-7DD8-46E2-B1C0-CA5EB98ECC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.NewHouse", "Task3\3.NewHouse.csproj", "{2AF7B939-73E7-4970-B46E-B7C4D44BFF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.CrossingSequences", "CrossingSequences\4.CrossingSequences.csproj", "{4A6FD881-5F98-4529-960D-BEB741239E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CatchTheBits", "5.CatchTheBits\5.CatchTheBits.csproj", "{F48719B1-6738-4FBC-89A1-D9B569E69703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C212D5-55BA-4EB7-9BA6-137D8B009E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C212D5-55BA-4EB7-9BA6-137D8B009E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C212D5-55BA-4EB7-9BA6-137D8B009E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C212D5-55BA-4EB7-9BA6-137D8B009E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4EE365-099F-428E-9993-2A7391489742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4EE365-099F-428E-9993-2A7391489742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4EE365-099F-428E-9993-2A7391489742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4EE365-099F-428E-9993-2A7391489742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5115DB63-7DD8-46E2-B1C0-CA5EB98ECC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5115DB63-7DD8-46E2-B1C0-CA5EB98ECC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5115DB63-7DD8-46E2-B1C0-CA5EB98ECC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5115DB63-7DD8-46E2-B1C0-CA5EB98ECC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF7B939-73E7-4970-B46E-B7C4D44BFF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF7B939-73E7-4970-B46E-B7C4D44BFF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF7B939-73E7-4970-B46E-B7C4D44BFF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF7B939-73E7-4970-B46E-B7C4D44BFF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6FD881-5F98-4529-960D-BEB741239E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6FD881-5F98-4529-960D-BEB741239E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6FD881-5F98-4529-960D-BEB741239E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6FD881-5F98-4529-960D-BEB741239E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48719B1-6738-4FBC-89A1-D9B569E69703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48719B1-6738-4FBC-89A1-D9B569E69703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48719B1-6738-4FBC-89A1-D9B569E69703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48719B1-6738-4FBC-89A1-D9B569E69703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
