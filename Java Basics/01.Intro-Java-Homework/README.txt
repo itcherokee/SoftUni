@@ -1,0 +1,1 @@
+All the task are under folder "src" except tasks 7, 10 and 11 (which are in the root)
