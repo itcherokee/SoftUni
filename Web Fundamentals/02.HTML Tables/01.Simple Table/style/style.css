@@ -1,0 +1,17 @@
+body {
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+header {
+    margin-top: -5px;
+}
+
+table {
+    border-spacing: 0px;
+    table-layout: fixed;
+    width: 370px;
+}
+
+.cell {
+    width: 200px
+}

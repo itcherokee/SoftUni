@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3B5997;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    font-size: 0.9em;
+    width: 750px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+    height: 20px;
+    border-width: 1px;
+}
+
+input[type=radio] {
+    vertical-align: middle;
+}
+
+input.regular {
+    width: 120px;
+
+}
+
+input.long {
+    width: 220px;
+}
+
+input.short {
+    width: 60px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.left-panel {
+    width: 295px;
+}
+
+.right-panel {
+    width: 435px;
+}
+
+select {
+    width:127px;
+    height: 26px
+}
+
+label {
+    margin-left: 5px;
+    width: 90%;
+}
+
+.radio-btn label {
+    margin-right: 10px;
+}
+
+button {
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 25px;
+    background-color: #DDDDDD;
+    font-size: 1.2em;
+    color: #3B5997;
+    border-width: 1px;
+}
+
+#register {
+    font-size: 1.3em;
+}
+
+.label-block {
+    display: block;
+}
+
+textarea {
+    width: 401px;
+    height: 42px;
+    margin-left: 5px;
+    border-radius: 5px;
+}

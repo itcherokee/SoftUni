@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Paragraphs and Images of Text</title>
+    <link href="style/style.css" rel="stylesheet"/>
+    <!--
+    Task 2: Create an HTML page holding a few headings, each with a few paragraphs of text.
+    Insert a few images. Play with the old formatting tags <b>, <i>, <u>, <strong>,
+    <em>, <sup>, <sub>, <pre>, <br /> etc. Ensure you have <doctype>, <html>, <head>,
+    <title> and <body>.
+    -->
+</head>
+<body>
+<header id="top">
+    <h1>Programming from the Ground Up<sup><a href="#reference"> *</a></sup></h1>
+</header>
+<section>
+    <header>
+        <h2>Chapter 1. Introduction</h2>
+    </header>
+    <article>
+        <header>
+            <h3>Welcome to Programming</h3>
+        </header>
+        <img src="images/code.jpg" alt="Programming">
+
+        <p>I love programming. I enjoy the challenge to not only make a working program,
+            but to do so with style. Programming is like poetry. It conveys a message, not only
+            to the computer, but to those who modify and use your program. With a program,
+            you build your own world with your own rules. You create your world according
+            to your conception of both the problem and the solution. Masterful programmers
+            create worlds with programs that are clear and succinct,
+            much like a poem or essay.</p>
+
+        <p>One of the greatest programmers, <strong>Donald Knuth</strong>, describes programming not as
+            telling a computer how to do something, but telling a person how they would
+            instruct a computer to do something. The point is that programs are meant to be
+            read by people, not just computers. Your programs will be modified and updated
+            by others long after you move on to other projects. Thus, programming is not as
+            much about communicating to a computer as it is communicating to those who
+            come after you. A programmer is a problem-solver, a poet, and an instructor all at
+            once. Your goal is to solve the problem at hand, doing so with balance and taste,
+            and teach your solution to future programmers. I hope that this book can teach at
+            least some of the poetry and magic that makes computing exciting.</p>
+
+        <p>Most introductory books on programming frustrate me to no end. At the end of
+            them you can still ask "how does the computer really work?" and not have a good
+            answer. They tend to pass over topics that are difficult even though they are
+            important. I will take you through the difficult issues because that is the only way
+            to move on to masterful programming. My goal is to take you from knowing
+            nothing about programming to understanding how to think, write, and learn like a
+            programmer. You won’t know everything, but you will have a background for how
+            everything fits together.</p>
+    </article>
+    <article>
+        <header>
+            <h3>Computer Architecture</h3>
+        </header>
+        <p>Before learning how to program, you need to first understand how a computer
+            <em>interprets</em> programs. You don’t need a degree in electrical engineering, but you
+            need to understand some basics.</p>
+
+        <p>Modern computer architecture is based off of an architecture called the <em>Von
+            Neumann architecture</em>, named after its creator. The Von Neumann architecture
+            divides the computer up into two main parts - the <b>CPU</b> (for Central Processing
+            Unit) and the <b>memory</b>. This architecture is used in all modern computers,
+            including personal computers, supercomputers, mainframes, and even cell phones.</p>
+    </article>
+    <article>
+        <header>
+            <h3>Structure of Computer Memory</h3>
+        </header>
+        <p>To understand how the computer views memory, imagine your local post office.
+            They usually have a room filled with PO Boxes. These boxes are similar to
+            computer memory in that each are numbered sequences of fixed-size storage
+            locations. For example, if you have 256 megabytes of computer memory, that
+            means that your computer contains roughly 256 million fixed-size storage
+            locations. Or, to use our analogy, 256 million PO Boxes. Each location has a
+            number, and each location has the same, fixed-length size. The difference between
+            a PO Box and computer memory is that you can store all different kinds of things
+            in a PO Box, but you can only store a single number in a computer memory
+            storage location.</p>
+        <pre>
+    PO.Box 1    PO.Box 2    PO.Box 3    PO.Box 4    PO.Box 5
+    ...
+    PO.Box 10   PO.Box 11   PO.Box 12 ...
+        </pre>
+        <i>Memeory locations are like PO Boxes.</i>
+    </article>
+</section>
+<br/>
+<section>
+    <header>
+        <h2>Chapter 2. Computer Architecture</h2>
+    </header>
+    <article>
+        <header>
+            <h3>Memory locations are like PO Boxes</h3>
+        </header>
+        <img src="images/ram.png" alt="Memory DIMM">
+
+        <p>You may wonder why a computer is organized this way. It is because it is simple
+            to implement. If the computer were composed of a lot of differently-sized
+            locations, or if you could store different kinds of data in them, it would be difficult
+            and expensive to implement.</p>
+
+        <p>The computer’s memory is used for a number of different things. All of the results
+            of any calculations are stored in memory. In fact, everything that is "stored" is
+            stored in memory. Think of your computer at home, and imagine what all is stored
+            in your computer’s memory. </p>
+        <ul>
+            <li>The location of your cursor on the screen</li>
+            <li>The size of each window on the screen</li>
+            <li>The shape of each letter of each font being used</li>
+            <li>The layout of all of the controls on each window</li>
+            <li>The graphics for all of the toolbar icons</li>
+            <li>The text for each error message and dialog box</li>
+            <li>The list goes on and on...</li>
+        </ul>
+
+        <p>In addition to all of this, the Von Neumann architecture specifies that not only
+            computer data should live in memory, but the programs that control the computer’s
+            operation should live there, too. In fact, in a computer, there is no difference
+            between a program and a program’s data except how it is used by the computer.
+            They are both stored and accessed the same way.</p>
+    </article>
+    <article>
+        <header>
+            <h3>The CPU</h3>
+        </header>
+        <img src="images/cpu.png" alt="Control Processing Unit">
+
+        <p>So how does the computer function? Obviously, simply storing data doesn’t do
+            much help - you need to be able to access, manipulate, and move it. That’s where
+            the CPU comes in.</p>
+
+        <p>The CPU reads in instructions from memory one at a time and executes them. This
+            is known as the fetch-execute cycle.</p>
+        The CPU contains the following elements to accomplish this:
+        <ul>
+            <li>Program Counter</li>
+            <li>Instruction Decoder</li>
+            <li>Data bus</li>
+            <li>General-purpose registers</li>
+            <li>Arithmetic and logic unit</li>
+        </ul>
+
+        <p>The program counter is used to tell the computer where to fetch the next
+            instruction from. We mentioned earlier that there is no difference between the way
+            data and programs are stored, they are just interpreted differently by the CPU. The
+            program counter holds the memory address of the next instruction to be executed.
+            The CPU begins by looking at the program counter, and fetching whatever number
+            is stored in memory at the location specified. It is then passed on to the instruction
+            decoder which figures out what the instruction means. This includes what process
+            needs to take place (addition, subtraction, multiplication, data movement, etc.) and
+            what memory locations are going to be involved in this process...</p>
+    </article>
+    <p>..... and a lot of more interesting things.....</p>
+</section>
+<footer>
+    <h4>References:</h4>
+
+    <p id="reference">1.<i>An extract from book <strong><a href="http://savannah.nongnu.org/projects/pgubook/">"Programming
+        from the Ground Up"</a></strong> by <b>Jonathan
+        Bartlett</b> and some pictures from me.</i></p>
+    <a href="#top">Back to top</a>
+</footer>
+</body>
+</html>

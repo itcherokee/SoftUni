@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+#life {
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+td {
+    height: 100px;
+    padding: 5px;
+}
+
+div {
+    width: 100px;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+td table {
+    height: 100%;
+}
+
+td.nested {
+    height: 50%;
+    padding: 0;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+#leisure {
+    font-size: 1.47em;
+    font-weight: normal;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="Fakebook Logo"/>
+
+    <h1>Registration</h1>
+
+    <h2>It is safe and it will always be!</h2>
+</header>
+<section>
+    <div class="left left-panel">
+        <fieldset>
+            <legend>None-Important Information</legend>
+            <input type="text" class="regular" name="firstName" placeholder="First Name"/>
+            <input type="text" class="regular" name="lastName" placeholder="Last Name"/>
+            <input type="email" class="regular" name="email" placeholder="Your Email"/>
+            <input type="tel" class="regular" name="tel" placeholder="Phone Number"/>
+            <input type="password" class="regular" name="password" placeholder="Password"/>
+            <input type="url" class="regular" name="url" placeholder="Website"/>
+            <label for="birthday">Birthday</label>
+            <input type="datetime-local" class="long" name="birthday" id="birthday" value="2014-06-05T01:59"/>
+
+            <div class="radio-btn">
+                <label for="gender-female"><input type="radio" name="gender" value="Female" id="gender-female"/>Female
+                </label>
+                <label for="gender-male"><input type="radio" name="gender" value="Male" id="gender-male"/>Male </label>
+                <label for="gender-other"><input type="radio" name="gender" value="Other" id="gender-other" checked/>Other
+                </label>
+            </div>
+        </fieldset>
+        <button class="left-panel">Clear Form</button>
+    </div>
+    <div class="right right-panel">
+        <fieldset>
+            <legend>Important Information *required</legend>
+            <select class="regular">
+                <option disabled selected>Country</option>
+                <option>Bulgaria</option>
+            </select>
+            <input type="text" class="regular" name="village" placeholder="Village" required="required"/>
+            <input type="text" class="regular" name="district" placeholder="District" required="required"/>
+            <input type="text" class="regular" name="street" placeholder="Street" required="required"/>
+            <input type="text" class="short" name="number" placeholder="Nr" required="required"/>
+            <input type="text" class="short" name="floor" placeholder="Floor" required="required"/>
+            <input type="text" class="short" name="apNumber" placeholder="Ap Nr" required="required"/>
+            <label for="door-color" class="label-block">Door Color</label>
+            <input type="color" class="regular" name="door-color" id="door-color" value="#FF7FFF"/>
+            <input type="text" class="regular" name="water" placeholder="Water Meter Nr" required="required"/>
+            <select class="regular">
+                <option disabled selected>Aunt Panties' Size</option>
+                <option>86</option>
+            </select>
+            <label for="personal-info" class="label-block">Door Color</label>
+            <textarea name="personal-info" id="personal-info" placeholder="Give us more information!!!"></textarea>
+        </fieldset>
+        <button class="right-panel" id="register">Register</button>
+    </div>
+</section>
+</body>
+</html>

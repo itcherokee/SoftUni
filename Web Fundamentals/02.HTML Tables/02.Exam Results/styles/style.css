@@ -1,0 +1,17 @@
+table {
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+span {
+    font-size: 1.5em;
+}
+
+tfoot {
+    text-align: right;
+}

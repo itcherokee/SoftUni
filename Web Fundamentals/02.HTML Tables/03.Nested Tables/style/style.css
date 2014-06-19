@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+table, td {
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.cell {
+    font-size: 3.5em;
+}
+
+td {
+    padding: 10px;
+}

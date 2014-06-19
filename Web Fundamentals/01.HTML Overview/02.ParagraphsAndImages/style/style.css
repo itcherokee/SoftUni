@@ -1,0 +1,46 @@
+body {
+    background-color: #a090ff;
+}
+
+body > header {
+    background-image: url('../images/banner.jpg');
+}
+
+#banner {
+    height: 100px;
+    width: 98%
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+section > header, body > section {
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+}
+
+h1 {
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}

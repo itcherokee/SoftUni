@@ -1,0 +1,98 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+}
+
+section {
+    height: 265px;
+    width: 385px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #FFC0CB;
+    color: #000000;
+    font-style: italic;
+}
+
+footer {
+    margin: 20px;
+}
+
+form > div > div {
+    display: inline-block;
+    width: 192px;
+    height: 60px;
+}
+
+.pane {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+.top-pane {
+    height: 60px;
+}
+
+section h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    margin: 0px;
+}
+
+select {
+    margin: 0px;
+    padding: 0px;
+    width: 190px;
+    height: 20px;
+}
+
+input[type=date] {
+    margin: 0px;
+    padding: 0px;
+    width: 186px;
+    height: 16px;
+}
+
+input[type=time] {
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    height: 16px;
+}
+
+input[type=number] {
+    margin: 0px;
+    padding: 0px;
+    width: 57px;
+    height: 16px;
+}
+
+.left {
+    float: left;
+}
+
+.left.pane > div {
+    display: inline-block;
+}
+
+input[type=checkbox] {
+    position: relative;
+    top: 2px;
+    margin: 5px 0px;
+}
+
+button {
+    margin-right: 3px;
+    width: 190px;
+    height: 28px;
+    position: relative;
+    float: right;
+}
