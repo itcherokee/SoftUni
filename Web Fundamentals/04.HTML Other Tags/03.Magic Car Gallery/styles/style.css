@@ -1,9 +1,51 @@
+html {
+    background: #FFF;
+}
+
 body {
-    background-color: #FFF;
+    background-color: black;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    color: yellow;
+    width: 950px;
+    min-height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1 {
+    margin-top:0;
+    text-align: center;
+    font-size: 3em;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 1px solid yellow;
+    height: 250px;
+    text-align: center;
 }
 
 iframe {
-    width: 200px;
-    height: 200px;
-    border: 1px solid yellow;
+    width: 400px;
+    height: 250px;
+    padding: 0;
+    margin:0;
+}
+
+.left {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
 }

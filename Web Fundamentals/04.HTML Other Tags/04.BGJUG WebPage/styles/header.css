@@ -1,0 +1,30 @@
+.header-scheme {
+    padding:0;
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header.header-scheme {
+    border-bottom: 1px solid gray;
+    width: 600px;
+}
+
+.header-scheme h1 {
+    padding-left: 25px;
+    text-align: left;
+}
+
+.header-scheme ul {
+    list-style: none;
+    word-spacing: 20px;
+}
+
+.header-scheme ul li {
+    display: inline-block;
+}
+
+.header-scheme ul li a {
+    text-decoration: none;
+    color: gray;
+
+}

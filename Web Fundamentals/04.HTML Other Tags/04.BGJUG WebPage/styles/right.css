@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    color: gray;
+    margin: 0;
+}
+
+div {
+    border-top: 1px solid gray;
+    width: 150px;
+    padding-top: 20px;
+}
+
+p {
+    border-bottom: 1px solid  gray;
+}

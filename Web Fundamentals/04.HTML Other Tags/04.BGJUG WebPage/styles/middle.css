@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    border-top: 1px solid gray;
+    font-size: 0.95em;
+    line-height: 1.9em;
+}
+
+section {
+    width: 500px;
+
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom:0;
+}
+a {
+    color: gray;
+}
+
+.continue-reading {
+    color: #6373B9;
+    text-decoration: none;
+}
