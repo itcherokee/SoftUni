@@ -1,0 +1,248 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 9pt;
+    color: black;
+}
+
+#calc_outer {
+    width: 423px;
+    height: 388px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 6px;
+    border: 1px solid #737D87;
+    border-radius: 10px;
+    background: #E7F3FF;
+}
+
+#titlebox {
+    height: 28px;
+    line-height: 28px;
+    margin: 0px auto;
+    vertical-align: top;
+}
+
+img#smallcalc {
+    margin: 5px 3px 0px 4px;
+}
+
+.sysbuttons input {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+}
+
+input.btn_min {
+    margin: 0px 0px 0px 226px;
+    padding: 9px 7px 4px 8px;
+    border: 1px solid #595959;
+    border-top: 0px;
+    border-bottom-left-radius: 4px;
+    background-image: -webkit-linear-gradient(#E5EFF9 0%,#CCD9E6 49%,#A0B4C8 50%,#B0C4DD 100%);
+}
+
+input.btn_max {
+    margin: 0px 0px 0px -4px;
+    padding: 4px 7px 4px 7px;
+    border: 1px solid #595959;
+    border-top: 0px;
+    background-image: -webkit-linear-gradient(#E5EFF9 0%,#CCD9E6 49%,#A0B4C8 50%,#B0C4DD 100%);
+}
+
+input.btn_close {
+    margin: 0px 0px 0px -4px;
+    padding: 4px 17px 4px 18px;
+    border: 1px solid #595959;
+    border-top: 0px;
+    border-bottom-right-radius: 4px;
+    background-image: -webkit-linear-gradient(#EDB1A7 0%,#DD8473 49%,#C64A33 50%,#CE816E 100%);
+}
+
+#calc_inner {
+    width: 100%;
+    height: 352px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #686868;
+    border-radius: 2px;
+    background-image: -webkit-linear-gradient(#EDF4FC 26%,#E5EDF7 36%,#DAE5F2 48%,#D9E4F1 100%);
+}
+
+div.menu {
+    margin: 0px auto;
+    height: 19px;
+    background-image: -webkit-linear-gradient(#F0F6FB 0%, #E2EAF3 30%, #D5E0ED 39%, #D7E2EF 100%);
+    border-bottom: 1px solid #B6BCCC;
+}
+
+    div.menu > ul {
+        display: inline;
+        padding: 0px 0px 0px 6px;
+        word-spacing: 11px;
+        vertical-align: middle;
+    }
+
+        div.menu > ul li {
+            list-style: none;
+            display: inline;
+        }
+
+        div.menu > ul > li:first-letter {
+            text-decoration: underline;
+        }
+
+.textbox {
+    margin: 11px 11px 0px 11px;
+    width: 385px;
+    height: 50px;
+    padding: 10px 6px 0px 0px;
+    font-family: Consolas;
+    font-size: 16pt;
+    font-weight: 500;
+    color: black;
+    background-image: -webkit-linear-gradient(top, #D3DBE5, #FFFFFF);
+}
+
+.binary {
+    margin: 5px 11px 0px 11px;
+    width: 385px;
+    height: 61px;
+    background: #D9E4F1;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Consolas;
+    color: #1E395B;
+    font-size: 9pt;
+    width: 100%;
+}
+
+td {
+    /*border: 1px solid black;*/
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    color: #1E395B;
+}
+
+    td.leftalign {
+        text-align: left;
+        padding-left: 9px;
+        color: #666666;
+    }
+
+    td.rightalign {
+        text-align: right;
+        padding-right: 9px;
+        color: #666666;
+    }
+
+.border {
+    border: 1px solid #8E9CAD;
+}
+
+.radiosize {
+    height: 91px;
+    width: 73px;
+    margin: 5px 0px 0px 0px;
+    vertical-align: middle;
+}
+
+.radio {
+    width: 74px;
+    height: 187px;
+    margin: 0px 0px 0px 11px;
+    float: left;
+    border: none;
+}
+
+div.radio > div > ul {
+    padding: 0px 0px 5px 0px;
+    margin: 6px 0px 0px 0px;
+}
+
+div.radio div > ul li {
+    list-style: none;
+    font: normal 8pt 'Segoe UI';
+    color: #1E395B;
+}
+
+.keys {
+    margin: 5px 0px 0px 5px;
+    float: left;
+}
+
+input[type="button"] {
+    width: 34px;
+    height: 27px;
+    line-height: 27px;
+    vertical-align: middle;
+    background-color: #D5E0EE;
+    border: 1px solid #8E9CAD;
+    border-radius: 3px;
+    padding: 0px 0px 6px 0px;
+    font-family: 'Segoe UI';
+    font-size: 8pt;
+    text-align: center;
+    color: #1E395B;
+    margin: 0px 2px 5px 0px;
+}
+
+.normal {
+    background-image: -webkit-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    background-image: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+}
+
+.inactive {
+    background-color: #D9E4F1;
+}
+
+.digits {
+    font-size: 11pt;
+    background-image: -webkit-linear-gradient(#F7FBFF 0%, #F1F5F9 49%,#E7EEF5 50%, #ECF4FA 100%);
+    background-image: linear-gradient(#F7FBFF 0%, #F1F5F9 49%,#E7EEF5 50%, #ECF4FA 100%);
+}
+
+input:not(:disabled) {
+    box-shadow: 0 0 1px 1px white inset;
+}
+
+input[id^=btnletter], input[class="digits"] {
+    font-size: 11pt;
+}
+
+input[disabled] {
+    border: 1px solid #B4C2D1;
+}
+
+input[type=button]:not(:disabled):hover {
+    background-image: -webkit-linear-gradient(#FFF0DF 0%, #FFE5C9 49%,#FFD06D 50%, #FFF8B4 100%);
+    background-image: linear-gradient(#FFF0DF 0%, #FFE5C9 49%,#FFD06D 50%, #FFF8B4 100%);
+}
+
+#firstdigits {
+    width: 312px;
+}
+
+#seconddigits {
+    width: 273px;
+    float: left;
+}
+
+#btnzero {
+    width: 73px;
+}
+
+#btnequal {
+    height: 59px;
+    font-weight: bolder;
+    font-size:17pt;
+}
+
+#btnleftarrow {
+    font-weight: bolder;
+    font-size:16pt;
+}

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Programmer Calculator</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="#" method="POST">
+        <div id="calc_outer">
+            <div id="titlebox">
+                <img src="image/calc.gif" alt="icon" id="smallcalc" />
+                Calculator
+                <span class="sysbuttons">
+                    <input type="image" src="image/min.gif" name="minimize" class="btn_min" alt="Minimize"/>
+                    <input type="image" src="image/max.gif" name="miximize" class="btn_max" alt="Maximize"/>
+                    <input type="image" src="image/close.gif" name="close" class="btn_close" alt="Close"/>
+                </span>
+            </div>
+            <div id="calc_inner">
+                <div class="menu">
+                    <ul>
+                        <li>View</li>
+                        <li>Edit</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <input type="text" name="field" dir="rtl" value="8854455" class="textbox border">
+                    <div class="binary border">
+                        <table>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="leftalign">63</td>
+                                <td colspan="2" class="leftalign">47</td>
+                                <td colspan="2" class="rightalign">32</td>
+                            </tr>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="leftalign">31</td>
+                                <td colspan="2" class="leftalign">15</td>
+                                <td colspan="2" class="rightalign">0</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="radio">
+              
+                        <div class="border radiosize">
+                            <ul>
+                                <li>
+                                    <input type="radio" name="s">Hex</li>
+                                <li>
+                                    <input type="radio" name="s" checked="checked">Dec</li>
+                                <li>
+                                    <input type="radio" name="s">Oct</li>
+                                <li>
+                                    <input type="radio" name="s">Bin</li>
+                            </ul>
+                        </div>
+                        <div class="border radiosize">
+                            <ul>
+                                <li>
+                                    <input type="radio" name="q" checked="checked">Qword</li>
+                                <li>
+                                    <input type="radio" name="q">Dword</li>
+                                <li>
+                                    <input type="radio" name="q">Word</li>
+                                <li>
+                                    <input type="radio" name="q">Byte</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="keys">
+                        <div id="firstdigits">
+                            <input id="btnnothing" type="button" value=" " disabled />
+                            <input id="btnmod" type="button" value="Mod" class="normal" />
+                            <input id="btnlettera" type="button" value="A" disabled />
+                            <input id="btnmc" type="button" value="MC" />
+                            <input id="btnmr" type="button" value="MR" />
+                            <input id="btnms" type="button" value="MS" />
+                            <input id="btnmplus" type="button" value="M+" />
+                            <input id="btnmminus" type="button" value="M-" />
+                            <input id="btnlbracket" type="button" value="(" class="normal" />
+                            <input id="btnrbracket" type="button" value=")" class="normal" />
+                            <input id="btnletterb" type="button" value="B" disabled />
+                            <input id="btnleftarrow" type="button" value="←" class="normal" />
+                            <input id="btncleare" type="button" value="CE" class="normal" />
+                            <input id="btnclear" type="button" value="C" class="normal" />
+                            <input id="btnplusminus" type="button" value="±" class="normal" />
+                            <input id="btnsqrt" type="button" value="√" disabled />
+                            <input id="btnrol" type="button" value="RoL" class="normal" />
+                            <input id="btnror" type="button" value="RoR" class="normal" />
+                            <input id="btnletterc" type="button" value="C" disabled />
+                            <input id="btn7" type="button" value="7" class="digits" />
+                            <input id="btn8" type="button" value="8" class="digits" />
+                            <input id="btn9" type="button" value="9" class="digits" />
+                            <input id="btndivision" type="button" value="/" class="normal" />
+                            <input id="btnpercent" type="button" value="%" disabled />
+                            <input id="btnor" type="button" value="Or" class="normal" />
+                            <input id="btnxor" type="button" value="Xor" class="normal" />
+                            <input id="btnletterd" type="button" value="D" disabled />
+                            <input id="btn4" type="button" value="4" class="digits" />
+                            <input id="btn5" type="button" value="5" class="digits" />
+                            <input id="btn6" type="button" value="6" class="digits" />
+                            <input id="btnmultiply" type="button" value="*" class="normal" />
+                            <input id="btn1divx" type="button" value="1/x" disabled />
+                        </div>
+                        <div id="seconddigits">
+                            <input id="btnlsh" type="button" value="Lsh" class="normal" />
+                            <input id="btnrsh" type="button" value="Rsh" class="normal" />
+                            <input id="btnlettere" type="button" value="E" disabled />
+                            <input id="btn1" type="button" value="1" class="digits" />
+                            <input id="btn2" type="button" value="2" class="digits" />
+                            <input id="btn3" type="button" value="3" class="digits" />
+                            <input id="btnminus" type="button" value="-" class="normal" />
+                            <input id="btnnot" type="button" value="Not" class="normal" />
+                            <input id="btnand" type="button" value="And" class="normal" />
+                            <input id="btnletterf" type="button" value="F" disabled />
+                            <input id="btnzero" type="button" value="0" class="digits" />
+                            <input id="btndot" type="button" value="." disabled />
+                            <input id="btnplus" type="button" value="+" class="normal" />
+                        </div>
+                        <div>
+                            <input id="btnequal" type="button" value="=" class="normal" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

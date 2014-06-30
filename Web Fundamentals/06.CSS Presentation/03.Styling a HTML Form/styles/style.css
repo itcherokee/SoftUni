@@ -1,0 +1,117 @@
+body {
+    /*margin: 0;*/
+    padding: 0;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.main-form {
+    /*margin: 0 auto;*/
+    width: 365px;
+    border-radius: 5px;
+    background: url(../images/formBackground.jpg);
+    padding-left: 18px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.main-form input[type=text],.main-form input[type=email], .main-form input[type=tel],.main-form select,.main-form textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 190px;
+    border: none;
+    padding-left: 5px;
+}
+
+.main-form label {
+    color: black;
+    border: 1px solid white;
+    background: rgba(133,171,205,0.5);
+    border-radius: 5px;
+    margin-bottom: 3px;
+
+}
+
+.main-form > span, .main-form > label {
+    display: block;
+}
+
+.main-form > span {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.main-form > label {
+    width: 358px;
+    padding-bottom: 6px;
+}
+.main-form label > span {
+    display: inline-block;
+    width: 94px;
+    padding-left: 9px;
+    margin-top: 10px;
+    font-size: 0.75em;
+}
+
+#card-details {
+    display: block;
+}
+
+.card-details + span {
+    display: inline-block;
+    width: 94px;
+    padding-left: 9px;
+    margin-top: 10px;
+    font-size: 0.75em;
+}
+
+#visa, #amex, #master {
+    width: 83px;
+    padding-left: 1px;
+}
+
+#visa:before {
+    content: url(../images/visa.png);
+    padding-top: 2px;
+}
+
+#amex:before {
+    content: url(../images/amex.png);
+}
+
+#master:before {
+    content: url(../images/master.png);
+}
+
+.main-form input, .main-form select {
+    height: 25px;
+}
+
+.main-form textarea {
+    height: 83px;
+    vertical-align: top;
+    margin-bottom: 9px;
+    margin-top: 6px;
+}
+
+.main-form input[type=radio] {
+    width: 10px;
+    margin-left: 13px;
+    vertical-align:middle;
+}
+
+.main-form label input[type=radio]:first-child {
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    width: 94px;
+    background-color: #04152F;
+    border-radius: 20px;
+    height: 29px;
+    border: 1px solid black;
+    margin: 5px 10px 16px 133px;
+    color: white;
+}
