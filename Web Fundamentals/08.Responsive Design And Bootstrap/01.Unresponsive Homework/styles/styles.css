@@ -1,0 +1,210 @@
+body {
+    background-color: #6698FF;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 715px;
+    margin: 0 auto;
+
+}
+
+#wrapper > header {
+    border-bottom: 1px solid black;
+    margin-bottom: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 1.9em;
+    margin: 10px;
+}
+
+h1 a {
+    color: white;
+
+}
+
+img {
+    max-width: 190px;
+    width: 100%;
+}
+
+article, aside, footer {
+    background-color: #E0EAFE;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+header nav {
+    position: relative;
+    margin-top: 18px;
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    right: 7px;
+    top: -31px;
+
+}
+
+header li {
+    display: inline-block;
+    width: 88px;
+    height: 18px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 5px 5px;
+    margin-left: 5px;
+}
+
+header li a {
+    line-height: 20px;
+}
+
+section, aside {
+    /*margin: 10px;*/
+    font-size: 0.82em;
+}
+
+section {
+    padding-right: 14px;
+    float: left;
+    max-width: 525px;
+}
+
+article {
+    margin-bottom: 8px;
+}
+
+article header h1 {
+    font-size: 1.45em;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+aside {
+    float: left;
+    max-width: 154px;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 5px;
+}
+
+footer {
+    clear: both;
+
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+}
+
+footer h2 a {
+    text-decoration: underline;
+    color: blue;
+}
+
+@media only screen and (max-width: 780px) {
+    section, aside {
+        padding: 0;
+        float: none;
+        max-width: 100%;
+        margin: 0 3px;
+    }
+
+    .news {
+        height: 70px;
+        padding: 5px;
+    }
+
+    .block {
+        display: inline-block;
+        float: right;
+        max-width: 25%;
+        text-align: center;
+        height: 50px;
+    }
+
+    footer {
+        clear: both;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    header > h1 > a > img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    span {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul {
+        position: absolute;
+        left: 51px;
+        width: 80%;
+        padding: 0;
+    }
+
+    header li {
+        display: inline-block;
+        width: 96%;
+        margin: 0 5px;
+    }
+
+    #wrapper > header {
+        margin-bottom: 109px;
+    }
+
+    section, aside {
+        padding: 0;
+        float: none;
+        max-width: 100%;
+        margin: 0 3px;
+    }
+
+    section h1 {
+        text-align: center;
+    }
+
+    .news {
+        height: 100px;
+        padding: 5px;
+    }
+
+    .block {
+        display: block;
+        float: none;
+        max-width: 96%;
+        /*text-align: center;*/
+        height: 20px;
+    }
+
+    footer {
+        clear: both;
+        margin-top: 5px;
+    }
+}

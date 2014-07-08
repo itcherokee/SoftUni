@@ -1,0 +1,161 @@
+body {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 0.96em;
+}
+
+body, div, header, nav, form, ul, li{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    min-width: 1240px;
+}
+
+header {
+    background-color: #314363;
+    text-align: right;
+}
+
+nav, div, ul, li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sub-menu {
+    display: none;
+
+}
+
+.nested-menu::after {
+    padding-left: 5px;
+    content: url('../images/arrow.png');
+}
+
+ul {
+    list-style: none;
+}
+
+img#logo {
+    float: left;
+}
+
+div#user-nav {
+    float: right;
+    height: 51px;
+    padding-top: 14px;
+    padding-right: 63px;
+}
+
+div#user-nav form {
+    float: right;
+    padding-top: 5px;
+}
+
+div#user-nav nav {
+    padding: 16px 9px 0px 0px;
+    font-size: 1.1em;
+}
+
+div#user-nav div#messages {
+    padding-right: 19px;
+}
+
+div#user-nav #msg-number {
+    font-size: 0.9em;
+}
+
+div#user-nav #msg-bell {
+    vertical-align: -8px;
+    content: url('../images/bell.png');
+}
+
+div#user-nav::after {
+    clear: right;
+}
+
+nav#main-nav {
+    padding-right: 64px;
+    height: 58px;
+}
+
+nav#main-nav li {
+    padding: 10px 5px;
+    margin-left: 27px;
+}
+
+nav#main-nav ul {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+#main-nav ul li ul, #user-nav ul {
+    background-color: #314363;
+}
+
+#main-nav ul li ul li, #user-nav nav > ul li {
+    display: block;
+    margin: 2px 0px;
+}
+
+ul li:hover {
+    background-color: #4CA0DB;
+    border-radius: 5px;
+}
+
+#main-nav ul li:hover ul, #user-nav nav > ul li:hover ul{
+    text-align: left;
+    border: none;
+    display: block;
+    position: absolute;
+    top: 94px;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+#user-nav nav > ul li:hover ul{
+    top: 50px;
+
+}
+.search {
+    width: 220px;
+    height: 27px;
+    padding-left: 3px;
+    background: #FFFFFF;
+    border-top: 1px solid #D5D5D5;
+    border-left: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.button {
+    height: 31px;
+    margin: 0;
+    width: 31px;
+    border: 0px;
+    position: relative;
+    left: -5px;
+    top: 4px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #D5D5D5;
+    border-left: #E7E7E7;
+    border-right: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #207cca;
+}

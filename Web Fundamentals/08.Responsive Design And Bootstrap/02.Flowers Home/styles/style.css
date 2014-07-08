@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background-flowers.jpg');
+    background-repeat: repeat;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, aside, section, footer {
+    border: 2px solid black;
+    background: rgba(254, 227, 229, 0.8);
+    padding: 10px;
+}
+
+section header {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper > header {
+    width: 740px;
+    margin: 0 auto;
+
+    padding: 10px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    -webkit-order: 1;
+    order: 1;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header span {
+    float: right;
+    /*padding-left: 296px;*/
+}
+
+header img {
+    width: 180px;
+}
+
+header nav {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    border: 1px solid black;
+    background: #EB2A7B;
+    padding: 10px;
+    margin: 0px 2px 0px 2px;
+    width: 96px;
+    text-align: center;
+    color: white;
+}
+
+aside {
+    width: 100px;
+    margin-top: 10px;
+}
+
+section {
+    -webkit-flex: 3 auto;
+    flex: 3 auto;
+    -webkit-order: 3;
+    order: 3;
+    width: 55%;
+    margin: 10px 10px;
+
+}
+
+section div {
+    text-align: center;
+}
+
+.left {
+    -webkit-flex: 1 auto;
+    flex: 1 auto;
+    -webkit-order: 2;
+    order: 2;
+    width: 16%;
+}
+
+.right {
+    -webkit-flex: 1 auto;
+    flex: 1 auto;
+    -webkit-order: 4;
+    order: 4;
+    width: 16%;
+
+}
+
+section img {
+    width: 120px;
+    display: inline-block;
+}
+
+footer {
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    -webkit-order: 5;
+    order: 5;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+    #wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    section {
+        flex: 1 100%;
+        order: 2;
+        margin: 20px 0 0 0;
+    }
+
+    section img {
+        width: 160px;
+    }
+
+    .left {
+        flex: 1 100%;
+        order: 3;
+        margin: 10px 0 0 0;
+    }
+
+    .right {
+        flex: 1 100%;
+        order: 4;
+        margin: 10px 0 0 0;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 96%;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    section img {
+        width: 240px;
+    }
+}

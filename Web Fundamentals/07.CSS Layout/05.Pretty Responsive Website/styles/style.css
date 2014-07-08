@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    background-color: black;
+    /*font-size: 15px;*/
+}
+
+body, header, main, section, article, footer, aside, nav, div, ul, li, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#wrapper {
+    max-width: 900px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#wrapper > header h1 {
+    padding-top: 200px;
+    padding-left: 497px;
+    display: block;
+    color: white;
+    font-size: 1.9em;
+    height: 270px;
+    background: url(../images/headerBackground.jpg) no-repeat;
+}
+
+#wrapper > header nav {
+    height: 46px;
+    background-color: #E6E6E6;
+}
+
+ul {
+    list-style: none;
+    border-bottom: 1px solid #FDFDFD;
+}
+
+li {
+    height: 44px;
+    display: inline-block;
+    border-right: 1px solid #FDFDFD;
+    padding: 13px 32px;
+}
+
+li:hover {
+    background-color: #B6B6B6;
+}
+
+li a {
+    color: #7E6B78;
+    font-weight: bold;
+}
+
+li:hover a {
+    color: #FDFDFD;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+}
+
+section {
+    border: 1px solid #7E6B78;
+    border-radius: 10px;
+    padding: 15px 20px 5px;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+aside {
+    float: left;
+    margin-left: 40px;
+    max-width: 200px;
+}
+
+aside a {
+    color: #82BC2B;
+    font-weight: bold;
+    display: block;
+}
+
+#news {
+    background-color: #EEE;
+}
+
+#news time {
+    display: block;
+    font-weight: bold;
+}
+
+#news div {
+    margin-bottom: 8px;
+}
+
+main {
+    float: left;
+    /*width: 75%;*/
+    margin-left: 40px;
+    max-width: 580px;
+}
+
+h2 {
+    color: #82BC2B;
+    margin-bottom: 20px;
+    font-size: 1.9em;
+}
+
+h3 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+#welcome span {
+    font-weight: bold;
+}
+
+#products article {
+    clear: left;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    background-color: #92CA2B;
+    font-size: 0.75em;
+    padding-top: 18px;
+    padding-left: 150px;
+}
+
+@media screen and (max-width: 900px){
+    main {
+        /*width: 100%;*/
+        max-width: 100%;
+        margin-right: 40px;
+    }
+
+    aside {
+        max-width: 100%;
+        margin-right: 40px;
+    }
+
+    #wrapper > header h1 {
+        padding-left: 0px;
+        text-align: center;
+        font-size: 2em;
+        height: 270px;
+    }
+
+    #wrapper > header nav {
+        height: 153px;
+    }
+
+    li {
+        height: 30px;
+        display: block;
+        padding: 5px 32px;
+        border: 1px solid #FDFDFD;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,134 @@
+form, header, section, div, input, label, fieldset, legend, button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+#wrapper {
+    width: 750px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.9em;
+    font-weight: normal;
+    color: #3B3633;
+}
+
+header {
+    margin: 7px 0 30px;
+}
+
+form {
+    width: 530px;
+    float: left;
+}
+fieldset {
+    border: 1px dashed #CCC;
+}
+
+legend {
+    background-color: #666;
+    border: 1px solid black;
+    font-weight: bold;
+    height: 30px;
+    color: white;
+    font-size: 0.8em;
+    padding: 6px 5px 0 5px;
+}
+
+.labels {
+    width: 140px;
+    height: 43px;
+    display: inline-block;
+    background-color: #CCC;
+    color: #666;
+    padding: 12px 4px 0px 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.fields {
+    display: inline-block;
+    width: 351px;
+    height: 43px;
+    margin-left: 5px;
+    margin-top: -3px;
+    border-color: #E6E6E6;
+    border-width: 7px;
+    border-style: solid;
+    border-right: 30px solid #E6E6E6;
+    padding-left: 22px;
+    font-size: 1.1em;
+
+}
+
+.fields:focus {
+    background-color: #F7F5D2;
+}
+#username {
+    background-image :url('../images/username-icon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#password {
+    background-image :url('../images/password-icon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.registry {
+    background-image :url('../images/field-icon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.submit {
+    text-align: right;
+    border: 1px solid #DEDEDE;
+    width: 351px;
+    margin-left: 150px;
+    padding: 10px;
+    height: 45px;
+    background-color: white;
+}
+
+.buttons {
+    width: 75px;
+    margin-right: 20px;
+    height: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9B9A84;
+    background-color: #E3E3DB;
+}
+
+.buttons:hover {
+    background-color: #CCC;
+    color: #736B61;
+    cursor: pointer;
+}
+
+aside {
+    float: left;
+    width: 170px;
+    padding: 0 17px;
+    background-color: white;
+    margin: 14px 0 0 10px;
+    border: 1px solid #CCC;
+    font-size: 0.8em;
+    color: #3B3633;
+}
+
+hr {
+    border: 1px dashed #CCC;
+    margin: 25px 0;
+}
