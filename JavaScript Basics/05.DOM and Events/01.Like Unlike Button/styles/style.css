@@ -1,0 +1,12 @@
+button {
+    display: inline-block;
+    width: 200px;
+    height:50px;
+    color: blue;
+    font-size: 1.5em;
+    border: 5px outset violet;
+}
+
+button:active {
+    border: 5px inset violet;
+}

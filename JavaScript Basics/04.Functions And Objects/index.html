@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>JavaScript Functions and Objects Homework</title>
+	<meta charset="UTF-8"/>
+	<link href="style/style.css" rel="stylesheet"/>
+	<link href="style/js-console.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+	<h1>Functions and Objects</h1>
+</header>
+<article>
+	<fieldset id="tasks-select">
+		<legend>Tasks:</legend>
+		<ul>
+			<li>
+				<input type="radio" name="tasks" value="1" checked="checked" id="task1">
+				<label for="task1">Task 1</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="2" id="task2">
+				<label for="task2">Task 2</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="3" id="task3">
+				<label for="task3">Task 3</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="4" id="task4">
+				<label for="task4">Task 4</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="5" id="task5">
+				<label for="task5">Task 5</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="6" id="task6">
+				<label for="task6">Task 6</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="7" id="task7">
+				<label for="task7">Task 7</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="8" id="task8">
+				<label for="task8">* Task 8</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="9" id="task9">
+				<label for="task9">* Task 9</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="10" id="task10">
+				<label for="task10">* Task 10</label>
+			</li>
+			<li>
+				<input type="radio" name="tasks" value="11" id="task11">
+				<label for="task11">*** Task 11</label>
+			</li>
+		</ul>
+	</fieldset>
+	<fieldset id="summary">
+		<legend> Task Definition:</legend>
+		<div>
+			<span>Write a JavaScript function lastDigitAsText(number) that returns the last digit of given integer as an English word.</span>
+			<span>Write a JavaScript function findNthDigit(arr) that accepts as a parameter an array of two numbers num and n and returns the n-th digit of given decimal number num counted from right to left. Return undefined when the number does not have n-th digit.</span>
+			<span>Write a JavaScript function findLargestBySumOfDigits(nums) that takes as an input a sequence of positive integer numbers and returns the element with the largest sum of its digits. The function should take a variable number of arguments. It should return undefined when 0 arguments are passed or when some of the arguments is not an integer number.</span>
+			<span>Write a JavaScript function biggerThanNeighbors(index, arr) that accept a number and an integer array as parameters. The function should return a Boolean number: whether the element at the given position in the array is bigger than its two neighbors (when such exist). It should return undefined when the index doesn't exist.</span>
+			<span>Write a JavaScript function reverseWordsInString(str) to reverse the characters of every word in the string but leaves the words in the same order. Words are considered to be sequences of characters separated by spaces.</span>
+			<span>Write a JavaScript function countDivs(html) to count the number of all DIVs in given HTML fragment passed as string.</span>
+			<span>Write a JavaScript function findYoungestPerson(persons) that accepts as parameter an array of persons, finds the youngest person and returns his full name.</span>
+			<span>Write a JavaScript function sumTwoHugeNumbers(value) that accepts as parameter an array of the two numbers for summing. The input numbers are represented as strings.</span>
+			<span>Write a JavaScript function removeItem(value) that accept as parameter a number or string. The function should remove all elements with the given value from an array. Attach the function to the Array type. You may need to read about prototypes in JavaScript and how to attach methods to object types. You should return as a result the modified array.</span>
+			<span>Write a JavaScript function clone(obj) that accept as parameter an object of reference type.  The function should return a deep copy of the object. Write a second function compareObjects(obj, objCopy) that compare the two objects by reference (==) and print on the console the output given below. Read in Internet about "deep copy" of an object and how to create it.</span>
+			<span>Write a JavaScript function group(persons) that groups an array of persons by age, first or last name. Create a Person constructor to add every person in the person array. The group(persons) function must return an associative array, with keys – the groups (age, firstName and lastName) and values – arrays with persons in this group. Print on the console every entry of the returned associative array. Use function overloading (i.e. just one function). You may need to find how to use constructors.</span>
+		</div>
+	</fieldset>
+	<div id="buttons">
+		<button id="btn-task1-summary">Run JavaScript code</button>
+		<button id="btn-taks1-show" title="Under IE browser, will open the JS file within your IDE after approval.">Show
+			JavaScript code
+		</button>
+	</div>
+	<div id="note">
+		If you have enabled popup-blocker, clicking the "Show" button will not open it. <br/>
+		You need to view the corresponding "taskX.js" file from the directory (located in the "tasks" folder).
+	</div>
+</article>
+<div id="js-console">
+</div>
+<script src="script/js-console.js"></script>
+<script src="tasks/task1.js"></script>
+<script src="tasks/task2.js"></script>
+<script src="tasks/task3.js"></script>
+<script src="tasks/task4.js"></script>
+<script src="tasks/task5.js"></script>
+<script src="tasks/task6.js"></script>
+<script src="tasks/task7.js"></script>
+<script src="tasks/task8.js"></script>
+<script src="tasks/task9.js"></script>
+<script src="tasks/task10.js"></script>
+<script src="tasks/task11.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

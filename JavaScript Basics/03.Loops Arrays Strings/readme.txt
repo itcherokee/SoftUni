@@ -1,0 +1,1 @@
+Tasks are located in the "tasks" folder. The rest is support content for the page.

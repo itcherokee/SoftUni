@@ -1,0 +1,46 @@
+﻿body {
+    width: 780px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tasks-select {
+    float: left;
+    height: 515px;
+    width: 110px;
+    padding-right: 20px;
+}
+
+#buttons {
+    height: 30px;
+    float: left;
+    float: none;
+    text-align: right;
+}
+
+#summary {
+    float: left;
+    width: 625px;
+    height: 100px;
+    padding: 0;
+    float: none;
+}
+
+    #summary > div {
+        margin: 0;
+        padding: 5px 5px 0 5px;
+        height: 76px;
+        overflow: auto;
+    }
+
+    #summary span + span {
+        display: none;
+    }
+
+#note {
+    color: red;
+}

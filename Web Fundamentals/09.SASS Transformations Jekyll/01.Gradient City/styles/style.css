@@ -1,0 +1,134 @@
+body {
+  background: #8a8a8a;
+  color: #898989;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 0.8em; }
+
+body, header, section, footer, div, ul, li, h1, h2, h3, article, nav, a {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+#wrapper {
+  border: 3px double #898989;
+  background: white;
+  width: 756px;
+  text-align: center;
+  margin: 20px auto 20px;
+  padding: 0 20px;
+  margin-top: 0px; }
+  #wrapper ul {
+    list-style: none; }
+    #wrapper ul li {
+      display: inline-block;
+      border: 3px double #898989;
+      background: white;
+      width: -94px;
+      text-align: center;
+      margin: 20px auto 20px;
+      padding: 0 20px;
+      margin: 10px 29px 19px;
+      height: 30px;
+      width: 75px;
+      padding: 3px 5px 5px; }
+      #wrapper ul li a {
+        text-decoration: none;
+        color: #898989; }
+      #wrapper ul li:hover {
+        background: linear-gradient(#8a8a8a, white); }
+        #wrapper ul li:hover a {
+          color: white; }
+  #wrapper > header, #wrapper > section, #wrapper > footer {
+    border: 3px double #898989;
+    background: white;
+    width: 710px;
+    text-align: center;
+    margin: 20px auto 20px;
+    padding: 0 20px; }
+  #wrapper > header h1 {
+    font-size: 2em; }
+  #wrapper > section {
+    padding: 20px; }
+    #wrapper > section header h1 {
+      font-size: 1.1em;
+      text-decoration: underline;
+      padding-bottom: 20px; }
+    #wrapper > section header#vertical + .innerContainer .purple {
+      background: linear-gradient(purple, white); }
+    #wrapper > section header#vertical + .innerContainer .blue {
+      background: linear-gradient(blue, white); }
+    #wrapper > section header#vertical + .innerContainer .green {
+      background: linear-gradient(green, white); }
+    #wrapper > section header#vertical + .innerContainer .yellow {
+      background: linear-gradient(yellow, white); }
+    #wrapper > section header#vertical + .innerContainer .orange {
+      background: linear-gradient(orange, white); }
+    #wrapper > section header#vertical + .innerContainer .red {
+      background: linear-gradient(red, white); }
+    #wrapper > section header#horizontal + .innerContainer .purple {
+      background: linear-gradient(to right, purple, white); }
+    #wrapper > section header#horizontal + .innerContainer .blue {
+      background: linear-gradient(to right, blue, white); }
+    #wrapper > section header#horizontal + .innerContainer .green {
+      background: linear-gradient(to right, green, white); }
+    #wrapper > section header#horizontal + .innerContainer .yellow {
+      background: linear-gradient(to right, yellow, white); }
+    #wrapper > section header#horizontal + .innerContainer .orange {
+      background: linear-gradient(to right, orange, white); }
+    #wrapper > section header#horizontal + .innerContainer .red {
+      background: linear-gradient(to right, red, white); }
+    #wrapper > section header#diagonal + .innerContainer .purple {
+      background: linear-gradient(to bottom right, purple, white); }
+    #wrapper > section header#diagonal + .innerContainer .blue {
+      background: linear-gradient(to bottom right, blue, white); }
+    #wrapper > section header#diagonal + .innerContainer .green {
+      background: linear-gradient(to bottom right, green, white); }
+    #wrapper > section header#diagonal + .innerContainer .yellow {
+      background: linear-gradient(to bottom right, yellow, white); }
+    #wrapper > section header#diagonal + .innerContainer .orange {
+      background: linear-gradient(to bottom right, orange, white); }
+    #wrapper > section header#diagonal + .innerContainer .red {
+      background: linear-gradient(to bottom right, red, white); }
+    #wrapper > section header#radial + article .innerContainer .purple {
+      background: radial-gradient(purple, white); }
+    #wrapper > section header#radial + article .innerContainer .blue {
+      background: radial-gradient(blue, white); }
+    #wrapper > section header#radial + article .innerContainer .green {
+      background: radial-gradient(green, white); }
+    #wrapper > section header#radial + article .innerContainer .yellow {
+      background: radial-gradient(yellow, white); }
+    #wrapper > section header#radial + article .innerContainer .orange {
+      background: radial-gradient(orange, white); }
+    #wrapper > section header#radial + article .innerContainer .red {
+      background: radial-gradient(red, white); }
+    #wrapper > section article {
+      border: 1px solid #898989;
+      margin: 5px 0px;
+      padding: 15px; }
+      #wrapper > section article h2 {
+        font-size: 0.7em;
+        padding-bottom: 15px; }
+      #wrapper > section article div {
+        font-size: 0; }
+        #wrapper > section article div div {
+          width: 100px;
+          height: 100px;
+          border-radius: 10px;
+          display: inline-block; }
+  #wrapper footer {
+    padding: 20px; }
+    #wrapper footer h3 {
+      text-decoration: underline;
+      padding-bottom: 20px;
+      font-weight: bold; }
+    #wrapper footer ul {
+      text-align: center;
+      width: 300px;
+      margin: 0 auto; }
+      #wrapper footer ul li {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        border: none;
+        display: block; }

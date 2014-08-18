@@ -1,0 +1,130 @@
+body {
+    background-color: #BAB9B9;
+    position: relative;
+
+}
+
+#wrapper {
+    width: 480px;
+    padding: 15px 50px;
+    background-color: #DDD;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+#wrapper > div {
+    width: 150px;
+    height: 111px;
+    display: inline-block;
+    padding: 3px;
+}
+#wrapper > div:hover {
+    -webkit-animation: shake-the-car 2s;
+}
+
+img {
+    width: 150px;
+    height: 111px;
+    float: left;
+    padding: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+img:hover {
+    z-index: 1;
+    -webkit-animation: rotate-car 4s 2s;
+}
+
+@-webkit-keyframes rotate-car {
+    0%{
+        transition: all 2s;
+    }
+    10% {
+
+        width: 50%;
+        height: 50%;
+        top: 100px;
+        left: 100px;
+    }
+
+    50% {
+        -webkit-transform:  rotate(1turn);
+    }
+
+    90% {
+        top: 100px;
+        left: 100px;
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
+@-webkit-keyframes shake-the-car {
+    0% {
+        -webkit-transform: rotate(3deg)
+    }
+    5% {
+        -webkit-transform: rotate(-2deg)
+    }
+    10% {
+        -webkit-transform: rotate(+1deg)
+    }
+    15% {
+        -webkit-transform: rotate(-4deg)
+    }
+    20% {
+        -webkit-transform: rotate(+2deg)
+    }
+    25% {
+        -webkit-transform: rotate(-1deg)
+    }
+    30% {
+        -webkit-transform: rotate(-2deg)
+    }
+    35% {
+        -webkit-transform: rotate(+1deg)
+    }
+    40% {
+        -webkit-transform: rotate(-4deg)
+    }
+    45% {
+        -webkit-transform: rotate(+2deg)
+    }
+    50% {
+        -webkit-transform: rotate(-2deg)
+    }
+    55% {
+        -webkit-transform: rotate(+1deg)
+    }
+    60% {
+        -webkit-transform: rotate(-4deg)
+    }
+    65% {
+        -webkit-transform: rotate(+2deg)
+    }
+    70% {
+        -webkit-transform: rotate(-1deg)
+    }
+    75% {
+        -webkit-transform: rotate(-2deg)
+    }
+    80% {
+        -webkit-transform: rotate(+1deg)
+    }
+    85% {
+        -webkit-transform: rotate(-4deg)
+    }
+    90% {
+        -webkit-transform: rotate(+2deg)
+    }
+    95% {
+        -webkit-transform: rotate(-4deg)
+    }
+    100% {
+        -webkit-transform: rotate(+2deg)
+    }
+}

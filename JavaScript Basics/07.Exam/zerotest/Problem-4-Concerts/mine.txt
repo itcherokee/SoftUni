@@ -1,0 +1,74 @@
+function solve(args) {
+    var input,
+        result,
+        towns = [],
+        concerts = {},
+        stadiums = [],
+        bands = [],
+        len,
+        index,
+        line,
+        output;
+
+    // input = Array.prototype.slice.apply(arguments);
+    len = args.length;
+    for (index = 0; index < len; index += 1) {
+        line = args[index].split('|');
+        line.forEach(function (el, indx, arr) {
+            var current;
+            current = el.trim();
+            current = '"' + current + '"';
+            arr[indx] = current;
+        });
+        if (towns.indexOf(line[1]) === -1) {
+            towns.push(line[1]);
+        }
+
+        if (stadiums.indexOf(line[3]) === -1) {
+            stadiums.push(line[3]);
+        }
+
+        if (concerts[line[1]] === undefined) {
+            concerts[line[1]] = {};
+        }
+
+//        if (concerts[line[1]]){
+        if (concerts[line[1]][line[3]]) {
+            if (concerts[line[1]][line[3]].indexOf(line[0]) === -1) {
+                concerts[line[1]][line[3]].push(line[0]);
+            }
+        } else {
+            concerts[line[1]][line[3]] = [];
+            concerts[line[1]][line[3]].push(line[0]);
+        }
+
+        concerts[line[1]][line[3]].sort();
+    }
+
+    var key;
+    towns.sort();
+    stadiums.sort();
+    result = '';
+    output = [];
+
+    var indexStad, lenStad, indexBand, lenBand;
+    for (index = 0, len = towns.length; index < len; index += 1) {
+        var stad = [];
+        result = towns[index] + ':{';
+        for (indexStad = 0, lenStad = stadiums.length; indexStad < lenStad; indexStad += 1) {
+            if (concerts[towns[index]][stadiums[indexStad]]) {
+                stad.push(stadiums[indexStad] + ':[' + concerts[towns[index]][stadiums[indexStad]].join(',') + ']');
+
+//                result += stadiums[indexStad] + ':[' + concerts[towns[index]][stadiums[indexStad]].join(',') + ']';
+            }
+        }
+
+        result += stad.join(',') + '}'
+        output.push(result);
+
+    }
+
+
+    return '{' + output.join(',') + '}';
+//    console.log(result);
+}

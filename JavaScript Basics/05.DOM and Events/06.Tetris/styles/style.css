@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #303030;
+    background: -webkit-radial-gradient(center, ellipse cover, #303030 0%, #222 66%);
+    background: radial-gradient(ellipse at center, #303030 0%, #222 66%);
+    background-repeat: round;
+    font-family: sans-serif;
+    color: #bbb;
+    margin: 20px;
+}
+
+div {
+    position: absolute;
+    padding: 0;
+    color: white;
+}
+
+
+#wrapper {
+    width: 106px;
+    padding: 35px 30px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    background: #303030;
+    box-shadow: 21px 21px 13px rgba(0, 0, 0, .3);
+    text-align: right;
+
+}
+
+#board {
+    text-align: left;
+    width: 100px;
+    height: 200px;
+    /*background: url('../images/back2.jpg') no-repeat;*/
+    border: 4px inset #444;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+span {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding-left: 10px;
+}
