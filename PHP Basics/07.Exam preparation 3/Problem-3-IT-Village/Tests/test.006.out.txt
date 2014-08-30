@@ -1,1 +1,0 @@
-<p>You lost! No more moves! You have 0 coins!<p>

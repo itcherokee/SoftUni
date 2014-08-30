@@ -1,1 +1,0 @@
-list=CPU%2C+VIA%2C+ROM

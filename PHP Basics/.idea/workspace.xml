@@ -22,26 +22,7 @@
     <favorites_list name="PHP Basics" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Problem-4-Pesho-the-Pharmacist.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/Problem-4-Pesho-the-Pharmacist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeshoThePharmacist.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.11525424" vertical-offset="0" max-vertical-offset="590">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -51,7 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/02.Working With Forms/06.Combo Box/scripts/script.js" />
         <option value="$PROJECT_DIR$/02.Working With Forms/06.Combo Box/countries.php" />
         <option value="$PROJECT_DIR$/02.Working With Forms/06.Combo Box/ComboBox.php" />
         <option value="$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/styles/style.css" />
@@ -101,6 +81,7 @@
         <option value="$PROJECT_DIR$/tests.php" />
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.html" />
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php" />
+        <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/Problem-4-Pesho-the-Pharmacist.html" />
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php" />
       </list>
     </option>
@@ -114,8 +95,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1099" />
+    <option name="width" value="1280" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,6 +124,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,10 +174,49 @@
               <option name="myItemId" value="07.Exam preparation 3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem-3-IT-Village" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07.Exam preparation 3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem-2-SoftUni-SQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07.Exam preparation 3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem-1-Computer-Smuggler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,14 +247,7 @@
       <recent name="Z:\SoftUni\PHP Basics\01.PHP Syntax\07.Form Data\script" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Problem-1-Computer-Smuggler.php">
-    <configuration default="false" name="MeetingDates.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/06.Exam preparation 2/01.Meeting Dates/MeetingDates.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.PeshoThePharmacist.php">
     <configuration default="false" name="PINValidation.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/06.Exam preparation 2/03.PIN Validation/PINValidation.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
@@ -254,6 +268,13 @@
       <method />
     </configuration>
     <configuration default="false" name="Problem-1-Computer-Smuggler.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PeshoThePharmacist.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -288,19 +309,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.XAMPP" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.MeetingDates.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.tests.php" />
-      <item index="5" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.tests.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Script.PeshoThePharmacist.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.tests.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.MeetingDates.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.PeshoThePharmacist.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.tests.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
       </list>
     </recent_temporary>
   </component>
@@ -351,8 +372,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1099" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1280" height="683" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -360,19 +381,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09744409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26144835" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="279" y="77" width="519" height="455" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2806874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31505728" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="279" y="77" width="519" height="455" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3254377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74954957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -416,11 +437,16 @@
           <line>20</line>
           <option name="timeStamp" value="205" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="211" />
+      <option name="time" value="226" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -643,30 +669,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05.Exam preparation 1/04.PHP Chess/PhpChess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1148" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="55" column="0" selection-start="1148" selection-end="1445" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06.Exam preparation 2/04.Scrabble/4.Scrabble.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="11" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
+        <state line="5" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06.Exam preparation 2/04.Scrabble/Scrabble.php">
@@ -677,28 +695,25 @@
             <element signature="n#sortWordsByValue#0;n#!!top" expanded="false" />
             <element signature="n#drawBoard#0;n#!!top" expanded="false" />
             <element signature="n#calculateJson#0;n#!!top" expanded="false" />
-            <marker date="1409305714652" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="333" selection-end="333" vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="603">
+        <state line="9" column="34" selection-start="333" selection-end="333" vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="1428" selection-end="1428" vertical-scroll-proportion="1.5208747" vertical-offset="0" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/Problem-4-Pesho-the-Pharmacist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.11525424" vertical-offset="0" max-vertical-offset="590">
+        <state line="36" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8612245" vertical-offset="190" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
