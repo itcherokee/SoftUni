@@ -1,0 +1,11 @@
+textarea {
+    display: block;
+}
+
+.odd {
+    color: blue;
+}
+
+.even {
+    color: red;
+}
