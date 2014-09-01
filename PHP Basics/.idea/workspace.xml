@@ -32,17 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/02.Working With Forms/06.Combo Box/countries.php" />
-        <option value="$PROJECT_DIR$/02.Working With Forms/06.Combo Box/ComboBox.php" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/02.Rich Peoples Problem/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/03.Show Annual Expenses/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/05.Sum Of Digits/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/06.Modify String/functions.php" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/05.Sum Of Digits/SumOfDigits.php" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/03.Show Annual Expenses/AnnualExpenses.php" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/02.Rich Peoples Problem/02.CarRandomizer.php" />
-        <option value="$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/SquareRootSum.php" />
         <option value="$PROJECT_DIR$/03.PHP Flow Control/04.Find Primes in Range/PrimesInRange.php" />
         <option value="$PROJECT_DIR$/03.PHP Flow Control/04.Find Primes in Range/styles/style.css" />
         <option value="$PROJECT_DIR$/03.PHP Flow Control/07.Student Sorting/scripts/script.js" />
@@ -83,6 +72,17 @@
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php" />
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/Problem-4-Pesho-the-Pharmacist.html" />
         <option value="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php" />
+        <option value="$PROJECT_DIR$/07.Exam preparation 3/03.IT Village/ITVilage.php" />
+        <option value="$PROJECT_DIR$/07.Exam preparation 3/02.SoftUni SQL/SoftUniSQL.php" />
+        <option value="$PROJECT_DIR$/08.Exam/01.Text Abbreviation/TextAbbreviator.html" />
+        <option value="$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUni Students.php" />
+        <option value="$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUni-Students.html" />
+        <option value="$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTMLnew.php" />
+        <option value="$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTML.html" />
+        <option value="$PROJECT_DIR$/08.Exam/01.Text Abbreviation/TextAbbreviation.php" />
+        <option value="$PROJECT_DIR$/08.Exam/03.Text Gravity/TextGravity.php" />
+        <option value="$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUniStudents.php" />
+        <option value="$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTML.php" />
       </list>
     </option>
   </component>
@@ -95,8 +95,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1280" />
-    <option name="height" value="683" />
+    <option name="width" value="1782" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +124,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,70 +152,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.Exam preparation 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problem-4-Pesho-the-Pharmacist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07.Exam preparation 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problem-3-IT-Village" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07.Exam preparation 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problem-2-SoftUni-SQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07.Exam preparation 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problem-1-Computer-Smuggler" />
+              <option name="myItemId" value="08.Exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,13 +173,14 @@
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="Z:/Desktop/home" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php\08.Exam\02.Semantic HTML" />
       <recent name="C:\xampp\htdocs\php\02.Working With Forms\06.Combo Box" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -247,38 +190,34 @@
       <recent name="Z:\SoftUni\PHP Basics\01.PHP Syntax\07.Form Data\script" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.PeshoThePharmacist.php">
-    <configuration default="false" name="PINValidation.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/06.Exam preparation 2/03.PIN Validation/PINValidation.php">
+  <component name="RunManager" selected="PHP Script.SemanticHTML.php">
+    <configuration default="false" name="SoftUni Students.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUni Students.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SoftUniStudents.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUniStudents.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SemanticHTML.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTML.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Scrabble.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/06.Exam preparation 2/04.Scrabble/Scrabble.php">
+    <configuration default="false" name="SemanticHTMLnew.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTMLnew.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="tests.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests.php">
+    <configuration default="false" name="SquareRootSum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/SquareRootSum.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem-1-Computer-Smuggler.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PeshoThePharmacist.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -300,7 +239,7 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="7b4cb9a2-b83f-4bfe-aacb-08f6958cee7c" server_name="Homeworks">
       <method />
     </configuration>
-    <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="XAMPP" start_url="/php/06.Exam preparation 2/04.Scrabble/Scrabble.php">
+    <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="XAMPP" start_url="/php/08.Exam/02.Semantic HTML/SemanticHTML.html">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -309,19 +248,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.XAMPP" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.tests.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
-      <item index="5" class="java.lang.String" itemvalue="PHP Script.PeshoThePharmacist.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.SoftUni Students.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.SoftUniStudents.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.SemanticHTML.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.SemanticHTMLnew.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Script.SquareRootSum.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.PeshoThePharmacist.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.Problem-1-Computer-Smuggler.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.tests.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.Scrabble.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.PINValidation.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.SemanticHTML.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.SquareRootSum.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.SemanticHTMLnew.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.SoftUniStudents.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.SoftUni Students.php" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +311,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1280" height="683" extended-state="6" />
+    <frame x="-8" y="-8" width="1782" height="974" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,20 +320,41 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2806874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31505728" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="279" y="77" width="519" height="455" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15835267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27088168" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="279" y="77" width="519" height="455" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74954957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20803782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183246" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15993538" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="279" y="77" width="519" height="455" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285273" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16882068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74954957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -438,111 +398,26 @@
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php</url>
+          <url>file://$PROJECT_DIR$/07.Exam preparation 3/04.Pesho the Pharmacist/PeshoThePharmacist.php</url>
           <line>40</line>
           <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/07.Exam preparation 3/03.IT Village/ITVilage.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="236" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="226" />
+      <option name="time" value="280" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.Working With Forms/06.Combo Box/ComboBox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="7304" selection-end="7424" vertical-scroll-proportion="-21.807692" vertical-offset="844" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/02.Rich Peoples Problem/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="0" selection-end="76" vertical-scroll-proportion="0.19281663" vertical-offset="0" max-vertical-offset="529" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/03.Show Annual Expenses/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="0" selection-end="105" vertical-scroll-proportion="0.032136105" vertical-offset="0" max-vertical-offset="529" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/02.Rich Peoples Problem/02.CarRandomizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="748" selection-end="748" vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/03.Show Annual Expenses/AnnualExpenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="609" selection-end="609" vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="1190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/SquareRootSum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="513" selection-end="513" vertical-scroll-proportion="0.061705988" vertical-offset="17" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/05.Sum Of Digits/SumOfDigits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="790" selection-end="892" vertical-scroll-proportion="0.5553539" vertical-offset="0" max-vertical-offset="1003" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/05.Sum Of Digits/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="105" selection-end="105" vertical-scroll-proportion="0.29462737" vertical-offset="0" max-vertical-offset="577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/04.Find Primes in Range/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="109" selection-end="109" vertical-scroll-proportion="0.32409012" vertical-offset="0" max-vertical-offset="577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/04.Find Primes in Range/PrimesInRange.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="21" selection-start="2503" selection-end="2503" vertical-scroll-proportion="2.8384755" vertical-offset="0" max-vertical-offset="1853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/07.Student Sorting/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/07.Student Sorting/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/07.Student Sorting/StudentSorting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.Working With Forms/05.CV Generator/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="89" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/01.Word mapping/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="0" selection-end="199" vertical-scroll-proportion="0.6200608" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/02.Coloring Texts/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.3119266" vertical-offset="0" max-vertical-offset="545" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/02.Coloring Texts/TextColorer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="40" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.47591522" vertical-offset="705" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/01.Word mapping/WordMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="350" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.Working With Forms/04.HTML Tags Counter/HTML Tags Counter.php">
@@ -595,16 +470,6 @@
         <state line="43" column="0" selection-start="1115" selection-end="1208" vertical-scroll-proportion="0.6875" vertical-offset="357" max-vertical-offset="901" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/07.SoftUni Seminar Generator/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.33272058" vertical-offset="6" max-vertical-offset="816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/07.SoftUni Seminar Generator/SeminarGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="39" selection-start="5128" selection-end="5128" vertical-scroll-proportion="0.47035572" vertical-offset="1564" max-vertical-offset="2227" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06.Exam preparation 2/01.Meeting Dates/MeetingDates.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="59" selection-start="555" selection-end="555" vertical-scroll-proportion="0.9916667" vertical-offset="0" max-vertical-offset="578" />
@@ -620,19 +485,9 @@
         <state line="7" column="11" selection-start="137" selection-end="137" vertical-scroll-proportion="0.33055556" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/04.Text Filter/TextFilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="52" selection-start="1873" selection-end="1873" vertical-scroll-proportion="1.9325626" vertical-offset="0" max-vertical-offset="1564" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/05.Sentence Extractor/SentenceExtractor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="7" selection-start="1689" selection-end="1689" vertical-scroll-proportion="1.8342967" vertical-offset="0" max-vertical-offset="1156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.Working With Forms/05.CV Generator/CVGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="308" selection-end="497" vertical-scroll-proportion="-0.0" vertical-offset="102" max-vertical-offset="4403" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06.Exam preparation 2/02.O My Girl/2.OMyGirl.html">
@@ -682,7 +537,7 @@
         <state line="5" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.php">
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/01.Computer Smuggler/Problem-1-Computer-Smuggler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="1088" />
       </provider>
@@ -699,21 +554,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-1-Computer-Smuggler/Problem-1-Computer-Smuggler.html">
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/01.Computer Smuggler/Problem-1-Computer-Smuggler.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="34" selection-start="333" selection-end="333" vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/PeshoThePharmacist.php">
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/04.Pesho the Pharmacist/Problem-4-Pesho-the-Pharmacist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="16" selection-start="1428" selection-end="1428" vertical-scroll-proportion="1.5208747" vertical-offset="0" max-vertical-offset="1173">
+        <state line="36" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8612245" vertical-offset="190" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/03.IT Village/ITVilage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="20" selection-start="868" selection-end="868" vertical-scroll-proportion="0.05367793" vertical-offset="398" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/Problem-4-Pesho-the-Pharmacist/Problem-4-Pesho-the-Pharmacist.html">
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/03.IT Village/Problem-3-IT-Village.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8612245" vertical-offset="190" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/02.SoftUni SQL/SoftUniSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="692" selection-end="692" vertical-scroll-proportion="0.100790516" vertical-offset="0" max-vertical-offset="506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/01.Text Abbreviation/TextAbbreviator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.23517786" vertical-offset="0" max-vertical-offset="506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/03.Text Gravity/TextGravity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="163" selection-end="163" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/07.SoftUni Seminar Generator/Seminar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="319" vertical-scroll-proportion="0.0327553" vertical-offset="0" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Exam preparation 3/04.Pesho the Pharmacist/PeshoThePharmacist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.69762844" vertical-offset="412" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/07.SoftUni Seminar Generator/SeminarGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="39" selection-start="5128" selection-end="5128" vertical-scroll-proportion="1.4703557" vertical-offset="888" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/04.Text Filter/TextFilter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="52" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.7826087" vertical-offset="607" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUni-Students.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="405" selection-end="405" vertical-scroll-proportion="0.23517786" vertical-offset="153" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Arrays Strings and Objects/01.Word mapping/WordMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1581" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Working With Forms/05.CV Generator/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4403">
+          <folding>
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408557199516" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/01.Square Root Sum/SquareRootSum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/03.Show Annual Expenses/AnnualExpenses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <folding>
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408614838125" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.PHP Flow Control/04.Find Primes in Range/PrimesInRange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.59687907" vertical-offset="459" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/01.Text Abbreviation/TextAbbreviation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/03.Text Gravity/TextGravity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="0" selection-end="1207" vertical-scroll-proportion="0.59687907" vertical-offset="0" max-vertical-offset="769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/04.SoftUni Students/SoftUniStudents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="29" selection-start="0" selection-end="2830" vertical-scroll-proportion="1.445509" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTMLold.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="487" selection-end="695" vertical-scroll-proportion="0.42754492" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="40" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.47858942" vertical-offset="827" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="9" selection-start="12156" selection-end="12156" vertical-scroll-proportion="-22.307692" vertical-offset="6951" max-vertical-offset="23664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="9" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.40680102" vertical-offset="1122" max-vertical-offset="8636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08.Exam/02.Semantic HTML/SemanticHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="22" selection-start="1000" selection-end="1062" vertical-scroll-proportion="0.40680102" vertical-offset="391" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>

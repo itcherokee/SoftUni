@@ -1,0 +1,4 @@
+<?php
+$inputCommands = '"UPDAtE users SET (age = 30) WHERE (user_id = 1)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "UPDATE users SET (age = 30) WHERE (user_id = 1)", "INSERT INTO users (login, age) VALUES (yana, 20, female)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "INSERT INTO users (user_id, login, gender) VALUES (12, yana, female)", "INSERT INTO users (login, age, gender) VALUES (yana, 20, female)", "INSrRT INTO users (login, age, gender) VALUES (yana, 20, female)", "UPDATE users SET (age = 30) WHERE (user_id = 1)", "UPDATE users SET (age = 30) WHERE (age = undefined)", "DELETE FROM users WHERE (age = 30)"';
+
+$commands = preg_split('/[,\s]+/', $inputCommands, -1, PREG_SPLIT_NO_EMPTY);
