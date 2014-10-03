@@ -1,0 +1,9 @@
+AddEvent 06/04/2010 04:04:04 | FirstEvent
+AddEvent 05/02/2011 11:20:44 | SecondEvent | VS12
+AddEvent 05/02/2012 11:21:00 | ThirdEvent | Calculator
+DeleteEvents SecondEvent
+AddEvent 07/01/2013 03:42:00 | ForthEvent | Eclipse
+AddEvent 07/01/2014 07:22:23 | FifthEvent | ILSpy
+DeleteEvents FifthEvent
+ListEvents 10/10/2009 01:00:10 | 5
+End
