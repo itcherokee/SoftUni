@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Estates.Data.Apartment" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Apartment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Data.BuildingEstate" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAoAAAACAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BuildingEstate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Data.Estate" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAAAEAAIAAAQCAAAFAAAAARAAAQAAAAE=</HashCode>
+      <FileName>Data\Estate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Data.EstateFactory" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\EstateFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Estates.Data.Garage" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABBAAAAQEQAAEAEAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Data\Garage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Data.House" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQgEAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Data.Office" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Office.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Estates.Engine.EstateEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIABAAAAAAAQABAAAAABAAAAAFAgAAAAAIIAAAAAAAA=</HashCode>
+      <FileName>Engine\EstateEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Estates.Engine.EstatesAgency" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Engine\EstatesAgency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Estates.Interfaces.IApartment" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IApartment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IBuildingEstate" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBuildingEstate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IEstate" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAQAAAAAAAAAAQAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IEstate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IEstateEngine" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEstateEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IGarage" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGarage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IHouse" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHouse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IOffer">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOffer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IOffice" Collapsed="true">
+    <Position X="19" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOffice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.IRentOffer" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRentOffer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Estates.Interfaces.ISaleOffer" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISaleOffer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Estates.Interfaces.EstateType" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAQAAAAAA=</HashCode>
+      <FileName>Interfaces\EstateType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Estates.Interfaces.OfferType" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\OfferType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
