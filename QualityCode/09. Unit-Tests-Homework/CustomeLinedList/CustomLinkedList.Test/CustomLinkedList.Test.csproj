@@ -6,7 +6,7 @@
     <ProjectGuid>{3179A164-89F7-4624-814A-15E2D9AF842D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomLinkedList.Test</RootNamespace>
+    <RootNamespace>CustomLinkedListTest</RootNamespace>
     <AssemblyName>CustomLinkedList.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
