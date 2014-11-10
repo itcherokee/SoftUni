@@ -1,0 +1,33 @@
+div#settings, canvas {
+    width: 350px;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+}
+
+input {
+    width: 70px;
+    margin: 5px;
+}
+
+select {
+
+}
+
+.hidden {
+    display: none;
+}
+
+.visible{
+    display: inline-block;
+}
+
+#list{
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+div#list {
+    height: 200px;
+}

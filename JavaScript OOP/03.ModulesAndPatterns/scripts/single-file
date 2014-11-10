@@ -1,0 +1,167 @@
+var todo = (function () {
+    'use strict';
+
+    function createInput(placeholder) {
+        var input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = placeholder;
+        return input;
+    }
+
+    function createButton(value) {
+        var button = document.createElement('input');
+        button.type = 'button';
+        button.value = value;
+        return button;
+    }
+
+    Object.prototype.extends = function (parent) {
+        this.prototype = Object.create(parent.prototype);
+        this.prototype.constructor = this;
+    };
+
+    var DomElement = (function () {
+        function setTitle(title) {
+            if (!title) {
+                throw Error("Invalid text content provided");
+            }
+
+            return title;
+        }
+
+        function DomElement(title) {
+            this._title = setTitle(title);
+        }
+
+        DomElement.prototype.toString = function () {
+            return this._title;
+        };
+
+        return DomElement;
+    }());
+
+    var Container = (function () {
+
+        function Container(title) {
+            DomElement.call(this, title);
+        }
+
+        Container.extends(DomElement);
+        Container.prototype.addToDom = function (parent) {
+            var container,
+                content,
+                title,
+                input,
+                button;
+
+            container = document.createElement('main');
+            container.id = 'container';
+            title = document.createElement('h1');
+            title.innerHTML = this.toString();
+            container.appendChild(title);
+            content = document.createElement('section');
+            container.appendChild(content);
+
+            input = createInput('Title...');
+            container.appendChild(input);
+
+            button = createButton('New Section');
+            button.addEventListener('click', function () {
+                var title = input.value;
+                var newSection = new todo.Section(title);
+                newSection.addToDom(content);
+                input.value = '';
+
+            });
+            container.appendChild(button);
+            parent.appendChild(container);
+        };
+
+        Container.prototype.toString = function () {
+            return this._title + ' <span style="font-style: italic;">TODO</span> List';
+        };
+
+        return Container;
+    }());
+
+    var Section = (function () {
+        function Section(title) {
+            DomElement.call(this, title);
+        }
+
+        Section.extends(DomElement);
+        Section.prototype.addToDom = function (parent) {
+            var section,
+                content,
+                title,
+                list,
+                input,
+                button;
+
+            section = document.createElement('article');
+            section.id = 'section';
+            content = document.createElement('div');
+            title = document.createElement('h2');
+            title.innerHTML = this.toString();
+            content.appendChild(title);
+            list = document.createElement('ul');
+            content.appendChild(list);
+            section.appendChild(content);
+
+            input = createInput('Add item...');
+            section.appendChild(input);
+
+            button = createButton('+');
+            button.addEventListener('click', function () {
+                var task = input.value;
+                var newItem = new todo.Item(task);
+                newItem.addToDom(list);
+                input.value = '';
+            });
+
+            section.appendChild(button);
+            parent.appendChild(section);
+        };
+
+        return Section;
+    }());
+
+    var Item = (function () {
+        function Item(content) {
+            DomElement.call(this, content);
+        }
+
+        Item.prototype = Object.create(DomElement.prototype);
+        Item.prototype.constructor = Item;
+
+        Item.prototype.addToDom = function (parent) {
+            var item,
+                checkbox,
+                itemSpan;
+
+            item = document.createElement('li');
+            checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            itemSpan = document.createElement('span');
+            itemSpan.appendChild(document.createTextNode(this.toString()));
+            checkbox.addEventListener('change', function () {
+                if (checkbox.checked) {
+                    itemSpan.className = 'checked';
+                } else {
+                    itemSpan.className = '';
+                }
+            });
+            item.appendChild(checkbox);
+            item.appendChild(itemSpan);
+            parent.appendChild(item);
+        };
+
+        return Item;
+    }());
+
+    return {
+        Container: Container,
+        Section: Section,
+        Item: Item
+    }
+}());

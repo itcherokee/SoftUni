@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/style.css"/>
+	<title>Shapes</title>
+
+</head>
+<body>
+<div id="settings">
+	<label for="x">X:</label>
+	<input type="text" id="x"/>
+	<label for="y">Y:</label>
+	<input type="text" id="y"/>
+	<label for="color">Color:</label>
+	<input type="color" id="color"/><br/>
+	<label for="shape-selection">Shape:</label>
+	<select name="shape-selection" id="shape-selection">
+		<option value="point">Point</option>
+		<option value="segment">Segment (Line)</option>
+		<option value="triangle">Triangle</option>
+		<option value="circle">Circle</option>
+		<option value="rectangle">Rectangle</option>
+	</select>
+
+	<div id="options">
+		<span id="second-coordinate">
+			<label for="x2-input" id="x2-label">X2:</label>
+			<input type="text" id="x2-input"/>
+			<label for="y2-input" id="y2-label">Y2:</label>
+			<input type="text" id="y2-input"/>
+		</span><br/>
+		<span id="third-coordinate">
+			<label for="x3">X3:</label>
+			<input type="text" id="x3"/>
+			<label for="y3">Y3:</label>
+			<input type="text" id="y3"/>
+		</span><br/>
+		<span id="circle-radius">
+			<label for="radius">Radius:</label>
+			<input type="text" id="radius"/>
+		</span><br/>
+		<span id="width-height">
+			<label for="rect-width">Width:</label>
+			<input type="text" id="rect-width"/>
+			<label for="rect-height">Height:</label>
+			<input type="text" id="rect-height"/>
+		</span>
+	</div>
+	<div id="list">
+
+	</div>
+	<input type="button" value="Add"/>
+</div>
+
+<canvas id="context" width="1200px" height="800px">
+</canvas>
+<script src="script/script.js"></script>
+</body>
+</html>
