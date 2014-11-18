@@ -65,7 +65,8 @@ String.prototype.isEmptyOrWhiteSpace = function () {
 // Integer validations
 Object.prototype.isInteger = function () {
 //    return (this.valueOf() % 1) === 0;
-    return this.valueOf().isNumber() && /^-?\d+$/.test(String(this.valueOf()));
+    var number = parseFloat(this.valueOf());
+    return number.isNumber() && /^-?\d+$/.test(String(number));
     //return Number(this.valueOf()) === this.valueOf() && this.valueOf() % 1 === 0
 };
 
