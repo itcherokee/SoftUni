@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Slideshow</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+	<script src="scripts/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<h1>
+	Task 4: Create a slideshow using jQuery.
+</h1>
+<section>
+	<div id="view">
+		<div id="slider">
+			<img src="images/j1.jpg"/>
+			<img src="images/j2.jpg"/>
+			<img src="images/j3.jpg"/>
+			<img src="images/j4.jpg"/>
+			<img src="images/j5.jpg"/>
+			<img src="images/j6.jpg"/>
+			<img src="images/j7.jpg"/>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name"/><br/>
+				<input type="radio" id="gender-he"/>
+				<label for="gender-he">He</label><br/>
+				<input type="radio" id="gender-she"/>
+				<label for="gender-she">She</label><br/>
+				<input type="radio" id="gender-it"/>
+				<label for="gender-it">It</label><br/>
+				<button>Restart Slider</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="controls">
+		<button id="left" class="controls">&lt</button>
+		<button id="right" class="controls">&gt</button>
+	</div>
+</section>
+
+<div id="result"></div>
+<script src="scripts/app.js"></script>
+
+</body>
+</html>

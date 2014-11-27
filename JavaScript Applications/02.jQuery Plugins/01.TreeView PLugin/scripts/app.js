@@ -1,0 +1,3 @@
+(function(){
+    $('#tree-view').treeView();
+}());

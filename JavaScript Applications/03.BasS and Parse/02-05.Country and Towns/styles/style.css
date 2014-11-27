@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+h1 {
+    padding-left: 20px;
+    background: #ffffff;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+span:hover {
+    cursor: pointer;
+}

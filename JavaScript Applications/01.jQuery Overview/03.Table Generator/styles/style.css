@@ -1,0 +1,43 @@
+section {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+section div {
+    margin: 10px 0;
+}
+
+input[type=text]{
+    width: 90%;
+}
+
+label{
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    background: lightgreen;
+}
+
+.wide {
+    width: 100px;
+}
+
+.narrow {
+    width: 80px;
+
+}
+
+#error {
+    color: red;
+}

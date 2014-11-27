@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Element insertion</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+	<script src="scripts/jquery-2.1.1.min.js"></script>
+	<script src="scripts/app.js"></script>
+</head>
+<body>
+<h1>Task 1:  Using jQuery write a script for adding elements before/after other elements.</h1>
+<section id="test-platform">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam animi aperiam corporis distinctio,
+		dolor esse excepturi illum iure laborum minima mollitia natus neque nulla pariatur possimus quis reprehenderit
+		totam!
+	</p>
+</section>
+<section id="control">
+	<label for="element">Place new:</label>
+	<select name="element" id="element">
+		<option value="div">DIV</option>
+		<option value="h1">H1</option>
+		<option value="button">Button</option>
+	</select>
+	<select name="where" id="where">
+		<option value="after">After</option>
+		<option value="before">Before</option>
+	</select>
+	<button>Add Element</button>
+</section>
+</body>
+</html>
