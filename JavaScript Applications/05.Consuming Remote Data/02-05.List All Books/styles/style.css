@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.edit-button {
+    color: green;
+}
+
+.delete-button {
+    color: red;
+}
+
+.new-button {
+    width: 100%;
+    color: blue;
+}
+
+.save-button {
+    width: 100%;
+    color: orange;
+}
+
+button:focus {outline:0;}

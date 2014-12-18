@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: orange;
+    text-align: center;
+}
+
+.user-form{
+    display: inline-block;
+    /*width: 280px;*/
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.user-form button {
+    float: right;
+    margin: 5px;
+}
+
+main div {
+    margin: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}

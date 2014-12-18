@@ -23,36 +23,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/scripts/script.js">
+      <file leaf-file-name="phonebook-controller.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5241521" vertical-offset="0" max-vertical-offset="1292">
-              <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+            <state vertical-scroll-proportion="-3.1318493" vertical-offset="4447" max-vertical-offset="5253">
+              <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
               <folding>
-                <element signature="e#463#1251#0" expanded="false" />
-                <element signature="e#1300#2373#0" expanded="false" />
-                <element signature="e#2407#3349#0" expanded="false" />
-                <element signature="e#3396#4322#0" expanded="false" />
-                <element signature="e#4365#4997#0" expanded="false" />
-                <element signature="e#5051#5809#0" expanded="false" />
-                <element signature="e#5850#5995#0" expanded="false" />
-                <element signature="e#6043#6292#0" expanded="false" />
-                <element signature="e#6324#6392#0" expanded="false" />
-                <element signature="e#6425#6486#0" expanded="false" />
-                <element signature="e#6515#6576#0" expanded="false" />
-                <element signature="e#6606#6664#0" expanded="false" />
-                <element signature="e#6728#10462#0" expanded="false" />
-                <element signature="e#10494#11532#0" expanded="false" />
+                <element signature="e#182#229#0" expanded="false" />
+                <element signature="e#257#399#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/index.html">
+      <file leaf-file-name="userEdit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/templates/userEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="442">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phonebook-dal.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-dal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1513">
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phonebook-model.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1972">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="629">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -68,53 +86,65 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/script/app.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/scripts/app.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/styles/style.css" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/index.html" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/styles/style.css" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/scripts/app.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/index.html" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/script.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/index.html" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/styles/style.css" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/styles/style.css" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/scripts/app.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/scripts/app.js" />
-        <option value="$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/index.html" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/scripts/messageBox.js" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/scripts/treeview.js" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/scripts/app.js" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/styles/treeview.css" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/index.html" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/scripts/jquery-treeview.js" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/index.html" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/scripts/jquery-messageBox.js" />
-        <option value="$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/scripts/app.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/styles/app.js" />
-        <option value="$PROJECT_DIR$/app - jquery.ajax.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/index.html" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/scripts/ajax-requests.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/scripts/jquery-messageBox.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02.List Countries/scripts/app.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/03.Edit Countries/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/03.Edit Countries/scripts/app.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/03.Edit Countries/index.html" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/04.List Towns by Country/scripts/app.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/04.List Towns by Country/index.html" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/04.List Towns by Country/scripts/script.js" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/index.html" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/styles/style.css" />
-        <option value="$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/scripts/script.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-repository.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/index.html" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-dal.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-model.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/styles/style.css" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-view.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/main.js" />
+        <option value="$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-controller.js" />
+        <option value="$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-dal.js" />
+        <option value="$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-view.js" />
+        <option value="$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-controller.js" />
+        <option value="$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-model.js" />
+        <option value="$PROJECT_DIR$/06.SPA Applications/Books/index.html" />
+        <option value="$PROJECT_DIR$/07.Underscore/01.Students Collection/scripts/app.js" />
+        <option value="$PROJECT_DIR$/07.Underscore/02.Book Store/scripts/app.js" />
+        <option value="$PROJECT_DIR$/07.Underscore/02.Book Store/index.html" />
+        <option value="$PROJECT_DIR$/07.Underscore/01.Students Collection/index.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Books/scripts/book-dal.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Books/index.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Books/scripts/bookmark-model.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/login" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/styles/style.css" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/login.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/register.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-dal.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-errors.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-model.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/bookmarks.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/index.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/home.html" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/main.js" />
+        <option value="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-controller.js" />
+        <option value="$PROJECT_DIR$/Exam/templates/login.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/phones.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/meu.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/menu" />
+        <option value="$PROJECT_DIR$/Exam/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/register.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/menu.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/home.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/phonebook.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/editPhone.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/deletePhone.html" />
+        <option value="$PROJECT_DIR$/Exam/templates/addPhone.html" />
+        <option value="$PROJECT_DIR$/Exam/index.html" />
+        <option value="$PROJECT_DIR$/Exam/scripts/phonebook-main.js" />
+        <option value="$PROJECT_DIR$/Exam/scripts/phonebook-notification.js" />
+        <option value="$PROJECT_DIR$/Exam/scripts/phonebook-dal.js" />
+        <option value="$PROJECT_DIR$/Exam/scripts/phonebook-model.js" />
+        <option value="$PROJECT_DIR$/Exam/templates/userEdit.html" />
+        <option value="$PROJECT_DIR$/Exam/scripts/phonebook-controller.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="x" value="3" />
+    <option name="y" value="45" />
+    <option name="width" value="1278" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,7 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,8 +190,167 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam Preparations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam Preparations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam Preparations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam Preparations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06.SPA Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06.SPA Applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Books" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +359,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/scripts/jquery-2.1.1.min.js" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/homework" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -181,25 +369,49 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\03.BasS and Parse\04.List Towns by Country\scripts" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\03.BasS and Parse" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\03.BasS and Parse\02.List Countries\scripts" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\02.jQuery Plugins\02.Fading Message Box" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\Exam\scripts\libs" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\Exam Preparations\Bookmarks\templates" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\Exam Preparations\Bookmarks\scripts" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\07.Underscore\02.Book Store\scripts" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\07.Underscore\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\Exam\scripts\libs" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\Exam\scripts" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\04.Cookies and Web Storages\01.Greeting System\styles" />
+      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\04.Cookies and Web Storages\lib" />
       <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\03.BasS and Parse\02.List Countries\styles" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\03.BasS and Parse\02.List Countries\scripts" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications" />
-      <recent name="D:\User\Documents\GitHub\SoftUni\JavaScript Applications\01.jQuery Overview\03.Table Generator\script" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/01.jQuery Overview/03.Table Generator">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="book-controller.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="book-controller.js" working-dir="$PROJECT_DIR$/06.SPA Applications/Books/scripts">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/JavaScript Applications/Exam Preparations/Bookmarks/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bookmark-controller.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="bookmark-controller.js" working-dir="$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -212,12 +424,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -227,28 +441,24 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.book-controller.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.bookmark-controller.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.bookmark-controller.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.book-controller.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
   </component>
@@ -265,22 +475,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1186" extended-state="6" />
-    <editor active="false" />
+    <frame x="3" y="45" width="1278" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.119072706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24032257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20136186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39542484" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -305,237 +515,376 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/index.html">
+    <entry file="file://$PROJECT_DIR$/Exam/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="629">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/index.html">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-dal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.37770382" vertical-offset="436" max-vertical-offset="1037">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="595">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.22296172" vertical-offset="325" max-vertical-offset="1343">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/scripts/jquery-2.1.1.min.js">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="370">
-          <caret line="3" column="16255" selection-start-line="3" selection-start-column="16255" selection-end-line="3" selection-end-column="16255" />
+        <state vertical-scroll-proportion="0.66056573" vertical-offset="62" max-vertical-offset="663">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14554794" vertical-offset="0" max-vertical-offset="584">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09139785" vertical-offset="51" max-vertical-offset="646">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20923077" vertical-offset="0" max-vertical-offset="975">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050949052" vertical-offset="0" max-vertical-offset="1001">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37362638" vertical-offset="0" max-vertical-offset="1001">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/01.Element Insertion/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57542455" vertical-offset="189" max-vertical-offset="1190">
-          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016983017" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/02.Background Color Switch/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state vertical-scroll-proportion="0.056572378" vertical-offset="0" max-vertical-offset="601">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/05.Consuming Remote Data/02-05.List All Books/scripts/book-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/04.SlideShow/index.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_q-1.1.2.zip/q-1.1.2/q.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="884">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.jQuery Overview/03.Table Generator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41846153" vertical-offset="0" max-vertical-offset="975">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="-6.29" vertical-offset="3774" max-vertical-offset="33031">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034412954" vertical-offset="0" max-vertical-offset="988">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/scripts/jquery-treeview.js">
+    <entry file="file://$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4925075" vertical-offset="0" max-vertical-offset="1001">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/01.TreeView PLugin/index.html">
+    <entry file="file://$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-dal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="975">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/scripts/jquery-messageBox.js">
+    <entry file="file://$PROJECT_DIR$/06.SPA Applications/Books/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23776224" vertical-offset="0" max-vertical-offset="1001">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.15708418" vertical-offset="0" max-vertical-offset="974">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/index.html">
+    <entry file="file://$PROJECT_DIR$/07.Underscore/libs/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.261807" vertical-offset="0" max-vertical-offset="974">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.jQuery Plugins/02.Fading Message Box/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1000">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../SoftUni/JavaScript Applications - Git/trunk/2. Parse.com-Demos/Parse.com-JavaScript-AJAX-Examples/jquery.noty.packaged.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="987">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../SoftUni/JavaScript Applications - Git/trunk/2. Parse.com-Demos/Parse.com-JavaScript-AJAX-Examples/2. voting-system.html">
+    <entry file="file://$PROJECT_DIR$/07.Underscore/libs/mustache.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.961538" vertical-offset="930" max-vertical-offset="2261">
-          <caret line="99" column="17" selection-start-line="97" selection-start-column="22" selection-end-line="99" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9877">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app - jquery.ajax.js">
+    <entry file="file://$PROJECT_DIR$/07.Underscore/01.Students Collection/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0216306" vertical-offset="1192" max-vertical-offset="2295">
-          <caret line="34" column="68" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Underscore/02.Book Store/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5955968" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Underscore/01.Students Collection/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1218638" vertical-offset="0" max-vertical-offset="837">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.Underscore/02.Book Store/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22341697" vertical-offset="0" max-vertical-offset="837">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1001">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2771739" vertical-offset="0" max-vertical-offset="552">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1539855" vertical-offset="0" max-vertical-offset="552">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="886" max-vertical-offset="1581">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="1836">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8717949" vertical-offset="0" max-vertical-offset="697">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12164579" vertical-offset="0" max-vertical-offset="559">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82393163" vertical-offset="640" max-vertical-offset="1241">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52307695" vertical-offset="0" max-vertical-offset="595">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1824687" vertical-offset="0" max-vertical-offset="595">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/libs/jquery.noty.packaged.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/libs/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47574627" vertical-offset="0" max-vertical-offset="536">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../SoftUni/JavaScript Applications - Git/trunk/7. ExamPreparation-Bookmarks/Bookmarks/scripts/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="2244">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.SPA Applications/Books/scripts/book-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03024911" vertical-offset="357" max-vertical-offset="1241">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/editPhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/deletePhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="357">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="64" />
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5142349" vertical-offset="816" max-vertical-offset="1717">
+          <caret line="105" column="42" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/addPhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38059703" vertical-offset="0" max-vertical-offset="536">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/templates/phonebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38059703" vertical-offset="0" max-vertical-offset="536">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/templates/bookmarks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060822897" vertical-offset="0" max-vertical-offset="559">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparations/Bookmarks/scripts/bookmark-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11623932" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63931626" vertical-offset="0" max-vertical-offset="680">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11623932" vertical-offset="0" max-vertical-offset="782">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1513">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/Exam/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33966035" vertical-offset="0" max-vertical-offset="1001">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="629">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/index.html">
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="442">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1972">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03.BasS and Parse/02-05.Country and Towns/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/Exam/templates/userEdit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5241521" vertical-offset="0" max-vertical-offset="1292">
-          <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/scripts/phonebook-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1318493" vertical-offset="4447" max-vertical-offset="5253">
+          <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
           <folding>
-            <element signature="e#463#1251#0" expanded="false" />
-            <element signature="e#1300#2373#0" expanded="false" />
-            <element signature="e#2407#3349#0" expanded="false" />
-            <element signature="e#3396#4322#0" expanded="false" />
-            <element signature="e#4365#4997#0" expanded="false" />
-            <element signature="e#5051#5809#0" expanded="false" />
-            <element signature="e#5850#5995#0" expanded="false" />
-            <element signature="e#6043#6292#0" expanded="false" />
-            <element signature="e#6324#6392#0" expanded="false" />
-            <element signature="e#6425#6486#0" expanded="false" />
-            <element signature="e#6515#6576#0" expanded="false" />
-            <element signature="e#6606#6664#0" expanded="false" />
-            <element signature="e#6728#10462#0" expanded="false" />
-            <element signature="e#10494#11532#0" expanded="false" />
+            <element signature="e#182#229#0" expanded="false" />
+            <element signature="e#257#399#0" expanded="false" />
           </folding>
         </state>
       </provider>
