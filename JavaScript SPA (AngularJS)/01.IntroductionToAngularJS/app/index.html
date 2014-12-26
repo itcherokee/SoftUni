@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Introduction To AngularJS Homework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body ng-app="introToAngular">
+<h1>Introduction to AngularJS Homework</h1>
+<ul class="menu">
+	<li>Task 1: <a href="#/student">Student Page</a></li>
+	<li>Task 2: <a href="#/image">Bind Image</a></li>
+	<li>Task 3: <a href="#/tiger">Tiger</a></li>
+</ul>
+
+<div ng-view></div>
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/StudentPage.js"></script>
+<script src="js/controllers/BindImage.js"></script>
+<script src="js/controllers/Tiger.js"></script>
+</body>
+</html>

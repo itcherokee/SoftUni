@@ -1,0 +1,44 @@
+[{
+    "title": "Course introduction",
+    "pictureUrl": "https://softuni.bg/Content/design/404animation.gif",
+    "length": "3:32",
+    "category": "IT",
+    "subscribers": 3,
+    "date": "2015-01-14T22:00:00.000Z",
+    "haveSubtitles": true,
+    "comments": [
+        {
+            "username": "Pesho Peshev",
+            "content": "Congratulations Nakov",
+            "date": "2015-01-15T10:30:00.000Z",
+            "likes": 3,
+            "websiteUrl": "http://pesho.com/"
+        },
+        {
+            "username": "Toshko Afrikanski",
+            "content": "Uhuuu uhuuuu Nakovuuuuuu",
+            "date": "2015-01-15T10:00:00.000Z",
+            "likes": 3,
+            "websiteUrl": "http://africa.com/"
+        },
+        {
+            "username": "Goshko",
+            "content": "Evala Nakov",
+            "date": "2015-01-14T23:30:00.000Z",
+            "likes": 3,
+            "websiteUrl": "http://goshko.com/"
+        }
+    ]
+},
+    {
+        "title": "AngularJS in 60-min",
+        "pictureUrl": "https://i.ytimg.com/vi/i9MHigUZKEM/mqdefault.jpg",
+        "length": "63:32",
+        "category": "IT",
+        "subscribers": 3,
+        "date": "2013-01-14T22:00:00.000Z",
+        "haveSubtitles": true,
+        "comments": [
+
+        ]
+    }]

@@ -1,0 +1,23 @@
+<h2>Task 1: Student Page</h2>
+<div ng-cloak>
+	<div>
+		<span ng-style="student.strongClass">Name: </span>
+		{{student.data.name}}
+	</div>
+	<div>
+		<span ng-style="student.strongClass">Grade: </span>
+		{{student.data.grade}}
+	</div>
+	<div>
+		<span ng-style="student.strongClass">School: </span>
+		{{student.data.school}}
+	</div>
+	<div>
+		<span ng-style="student.strongClass">Teacher: </span>
+		{{student.data.teacher}}
+	</div>
+	<div>
+		<span ng-style="student.strongClass">Picture: </span>
+		<img ng-src="{{student.data.photo}}" src="" ng-style="{'vertical-align':'text-top'}"/>
+	</div>
+</div>

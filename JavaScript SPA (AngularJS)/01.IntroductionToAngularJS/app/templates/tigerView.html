@@ -1,0 +1,16 @@
+<h2>Task 3: Tiger</h2>
+<div ng-cloak ng-style="tiger.styleBox">
+	<div ng-style="tiger.styleBox">
+		<h3 ng-style="tiger.styleHeading">TIGER</h3>
+
+		<div>
+			<span ng-style="tiger.styleStrong">Name: </span>{{tiger.data.Name}}<br/>
+			<span ng-style="tiger.styleStrong">Born: </span>{{tiger.data.Born}}<br/>
+			<span ng-style="tiger.styleStrong">Birth date: </span>{{tiger.data.BirthDate}}<br/>
+			<span ng-style="tiger.styleStrong">Live: </span>{{tiger.data.Live}}<br/>
+		</div>
+	</div>
+	<div ng-style="tiger.styleBox">
+		<img ng-src="{{tiger.data.Picture}}" src="" ng-style="tiger.styleImg"/>
+	</div>
+</div>

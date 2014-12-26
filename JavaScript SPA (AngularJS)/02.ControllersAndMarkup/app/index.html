@@ -1,0 +1,49 @@
+<!--  За съжаление нямах възможност да довърша задачата и успях това да сътворя само това за 2 часа. Бъдете строги, защото съм го заслужил.
+  	За момента само четене на данни и сортиране работи. Не остана време за рутиране, съответно форма за нов филм и филтрация -->
+
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Controllers and Markup Homework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body data-ng-app="CtrlAndMarkup" data-ng-controller="MainController as main">
+<h1>Controllers and Markup Homework</h1>
+<div>
+	<label for="sortVideosBy">Sort by:</label>
+	<select name="sortVideosBy" id="sortVideosBy" data-ng-model="videoOrder">
+		<option value="title" selected>title</option>
+		<option value="length">length</option>
+		<option value="date">date</option>
+		<option value="likes">likes</option>
+	</select>
+	<label for="filterVideosBy">Filter by:</label>
+	<select name="filterVideosBy" id="filterVideosBy" data-ng-model="filterVideo">
+		<option value="category" selected>Category</option>
+		<option value="date">Date</option>
+		<option value="haveSubtitles">Have subtitles</option>
+	</select>
+</div>
+<ul>
+	<li data-ng-repeat="video in main.data | orderBy:videoOrder" class="video">
+		<div >
+			<h2>{{video.title}} - <span>{{video.length}} min. </span> (<span>{{video.date | date:'dd-MM-yyyy hh:mm'}}</span>)</h2>
+			<span class="bolded">Category:</span> {{video.category}} - <span class="bolded">Subscribers:</span> {{video.subscribers}} - <span class="bolded">Subtitles:</span> <input type="checkbox" disabled data-ng-checked="{{video.haveSubtitles}}"/>
+			<img data-ng-src="{{video.pictureUrl}}" src="" alt=""/>
+			<div class="comments">
+				<div data-ng-repeat="comment in video.comments" class="comment">
+					<div class="bolded">Comment by: {{comment.username}} (<a data-ng-href="{{comment.websiteUrl}}">{{comment.websiteUrl}}</a>) - {{comment.date}}</div>
+					<div>{{comment.content}}</div>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>
+
+<script src="lib/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services/data-service.js"></script>
+<script src="js/controllers/main-controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.bolded {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+li {
+    margin: 4px 0;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+img {
+    width: 150px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.video {
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comments {
+    display: block;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.comment {
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
