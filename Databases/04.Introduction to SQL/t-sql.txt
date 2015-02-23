@@ -1,0 +1,3 @@
+Problem 2. What is Transact-SQL (T-SQL)?
+
+T-SQL is the Microsoft implementation of the SQl language. It uses almost all of the standart commands, but also introduces a lot of  common commands that helps with additional features within the MS SQL Server like stored procedures, triggers as well as with writing queries also.

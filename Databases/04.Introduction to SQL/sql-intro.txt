@@ -1,0 +1,9 @@
+Problem 1. What is SQL? What is DML? What is DDL? Recite the most important SQL commands.
+
+SQL (Structured Query Language) is a standard language for creating, altering and deleting a database and tables as well as a language for getting, inserting, updating and deleting (CRUD operations) data in table(s) within a database.
+
+DDL part of the language deals with operations related to tables and database structure. Most important commands are CREATE, ALTER and DROP.
+
+DML part of the language deals with operations related to data within the tables. Most important commands are SELECT, INSERT, UPDATE and DELETE.
+
+There is third part of the language that deals with the rights within database/tables called DCL (Data Control Language). Two commands are used GRANT and REVOKE.
