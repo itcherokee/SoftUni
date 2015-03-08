@@ -1,0 +1,10 @@
+use chat
+
+db.messages.insert({"text" : "Mnogo sam zle", "date" : "2015-01-01 00:01:00.000", "isRead" : true, "user" : {"username" : "Mongo", "fullName" : "Mongo DB","site" : "www.mongoDB.org"}});
+
+var bulk = db.messages.initializeUnorderedBulkOp();
+bulk..insert({"text" : "Az sym po zle", "date" : "2015-01-01 02:01:00.000", "isRead" : true, "user" : {"username" : "Redis", "fullName" : "Redis DB", "site" : "www.redis.io"}});
+bulk..insert({"text" : "Az Vi biya po vsichki pokazateli", "date" : "2015-01-02 02:01:00.000", "isRead" : true, "user" : {"username" : "Oracle", "fullName" : "Oracle SUN", "site" : "www.oracle.com"}});
+bulk.insert({"text" : "Az pyk sym dobre", "date" : "2015-03-01 10:01:00.000", "isRead" : true, "user" : {"username" : "mysql", "fullName" : "MySQL free DB", "site" : "www.mysql.com"}});
+bulk.insert({"text" : "A az nay-dobre", "date" : "2015-03-03 08:01:00.000", "isRead" : false, "user" : {"username" : "MSSQLO", "fullName" : "Microsoft SQL", "site" : "www.microsoft.com/sql"}});
+bulk.execute();

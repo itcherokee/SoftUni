@@ -1,0 +1,10 @@
+FLUSHALL
+SADD authors:usernames maria_p steve
+HMSET authors:maria_p name "Maria Peneva" email maria@gmail.com phone "0899 12 34 56"
+HMSET authors:steve name "Steve Wilson" email steve@yahoo.com phone "0800 77 553 452"
+
+SET ads:count 4
+HMSET ad:1 title "BMW 320 for Sale" description "BMW 320d, 2.0 diesel, 4 doors, automatic transmission. Year: 2007. Miles: 107,000. Price: 2400 EUR." location "Sofia" date "2014-12-26 12:37" author maria_p
+HMSET ad:2 title "Job as Housekeeper" description "I am looking for a job as housekeeper." location "Plovdiv" date "2014-12-30 23:43" author steve
+HMSET ad:3 title "3 bed apartment to let" description "Very good. A must see. Price: 750 EUR." location "Sofia" date "2015-01-17 10:44" author maria_p
+HMSET ad:4 title "Free MP3 Player" description "Free MP3 player, broken." location "Rousse" date "2014-11-28 21:15" author steve

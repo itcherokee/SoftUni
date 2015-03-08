@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bac6cf57d35042ff86fbefbf91a1c158" Name="Diagram1" >
+        <EntityTypeShape EntityType="SoftUniContext.Town" Width="1.5" PointX="1.25" PointY="1.75" />
+        <EntityTypeShape EntityType="SoftUniContext.Address" Width="1.5" PointX="3.5" PointY="1.625" />
+        <AssociationConnector Association="SoftUniContext.AddressTown" />
+        <EntityTypeShape EntityType="SoftUniContext.Employee" Width="2" PointX="6.75" PointY="1.25" />
+        <AssociationConnector Association="SoftUniContext.AddressEmployee" />
+        <EntityTypeShape EntityType="SoftUniContext.Department" Width="1.5" PointX="9.875" PointY="1" />
+        <AssociationConnector Association="SoftUniContext.DepartmentEmployee" />
+        <AssociationConnector Association="SoftUniContext.DepartmentManager" />
+        <EntityTypeShape EntityType="SoftUniContext.Project" Width="1.5" PointX="9.625" PointY="4" />
+        <AssociationConnector Association="SoftUniContext.ProjectEmployee" />
+        <AssociationConnector Association="SoftUniContext.EmployeeManager" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

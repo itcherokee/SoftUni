@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SoftUniContext.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SoftUniContextStoreContainer">
+    <EntitySet Name="Towns" EntityType="SoftUniContext.Store.Towns" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Addresses" EntityType="SoftUniContext.Store.Addresses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="SoftUniContext.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Deaprtments" EntityType="SoftUniContext.Store.Deaprtments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Projects" EntityType="SoftUniContext.Store.Projects" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProjectEmployee" EntityType="SoftUniContext.Store.ProjectEmployee" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="AddressTown" Association="SoftUniContext.Store.AddressTown">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Town" EntitySet="Towns" />
+    </AssociationSet>
+    <AssociationSet Name="AddressEmployee" Association="SoftUniContext.Store.AddressEmployee">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="DepartmentEmployee" Association="SoftUniContext.Store.DepartmentEmployee">
+      <End Role="Department" EntitySet="Deaprtments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="DepartmentEmployee1" Association="SoftUniContext.Store.DepartmentManager">
+      <End Role="Department" EntitySet="Deaprtments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectEmployee_Project" Association="SoftUniContext.Store.FK_ProjectEmployee_Project">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="ProjectEmployee" EntitySet="ProjectEmployee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectEmployee_Employee" Association="SoftUniContext.Store.FK_ProjectEmployee_Employee">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ProjectEmployee" EntitySet="ProjectEmployee" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeManager" Association="SoftUniContext.Store.EmployeeManager">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Employee1" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Towns">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Addresses">
+    <Key>
+      <PropertyRef Name="AddressId" />
+    </Key>
+    <Property Name="AddressId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AddressText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TownId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MiddleName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JobTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HireDate" Type="datetime" Nullable="false" />
+    <Property Name="Salary" Type="decimal" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="true" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+    <Property Name="ManagerId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmployeeManager_Employee_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Deaprtments">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ManagerId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="ProjectId" />
+    </Key>
+    <Property Name="ProjectId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProjectEmployee">
+    <Key>
+      <PropertyRef Name="Projects_ProjectId" />
+      <PropertyRef Name="Employees_Id" />
+    </Key>
+    <Property Name="Projects_ProjectId" Type="int" Nullable="false" />
+    <Property Name="Employees_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="AddressTown">
+    <End Role="Address" Type="SoftUniContext.Store.Addresses" Multiplicity="*" />
+    <End Role="Town" Type="SoftUniContext.Store.Towns" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Town">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="TownId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AddressEmployee">
+    <End Role="Address" Type="SoftUniContext.Store.Addresses" Multiplicity="0..1" />
+    <End Role="Employee" Type="SoftUniContext.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="AddressId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DepartmentEmployee">
+    <End Role="Department" Type="SoftUniContext.Store.Deaprtments" Multiplicity="1" />
+    <End Role="Employee" Type="SoftUniContext.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DepartmentManager">
+    <End Role="Department" Type="SoftUniContext.Store.Deaprtments" Multiplicity="*" />
+    <End Role="Employee" Type="SoftUniContext.Store.Employees" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Department">
+        <PropertyRef Name="ManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EmployeeManager">
+    <End Role="Employee" Type="SoftUniContext.Store.Employees" Multiplicity="*" />
+    <End Role="Employee1" Type="SoftUniContext.Store.Employees" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee1">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="EmployeeManager_Employee_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectEmployee_Project">
+    <End Role="Project" Type="SoftUniContext.Store.Projects" Multiplicity="1" />
+    <End Role="ProjectEmployee" Type="SoftUniContext.Store.ProjectEmployee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ProjectId" />
+      </Principal>
+      <Dependent Role="ProjectEmployee">
+        <PropertyRef Name="Projects_ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectEmployee_Employee">
+    <End Role="ProjectEmployee" Type="SoftUniContext.Store.ProjectEmployee" Multiplicity="*" />
+    <End Role="Employee" Type="SoftUniContext.Store.Employees" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectEmployee">
+        <PropertyRef Name="Employees_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="SoftUniContext" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="SoftUniContextContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Towns" EntityType="SoftUniContext.Town" />
+          <EntitySet Name="Addresses" EntityType="SoftUniContext.Address" />
+          <AssociationSet Name="AddressTown" Association="SoftUniContext.AddressTown">
+            <End Role="Address" EntitySet="Addresses" />
+            <End Role="Town" EntitySet="Towns" />
+          </AssociationSet>
+          <EntitySet Name="Employees" EntityType="SoftUniContext.Employee" />
+          <AssociationSet Name="AddressEmployee" Association="SoftUniContext.AddressEmployee">
+            <End Role="Address" EntitySet="Addresses" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <EntitySet Name="Deaprtments" EntityType="SoftUniContext.Department" />
+          <AssociationSet Name="DepartmentEmployee" Association="SoftUniContext.DepartmentEmployee">
+            <End Role="Department" EntitySet="Deaprtments" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="DepartmentEmployee1" Association="SoftUniContext.DepartmentManager">
+            <End Role="Department" EntitySet="Deaprtments" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <EntitySet Name="Projects" EntityType="SoftUniContext.Project" />
+          <AssociationSet Name="ProjectEmployee" Association="SoftUniContext.ProjectEmployee">
+            <End Role="Project" EntitySet="Projects" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+          <AssociationSet Name="EmployeeManager" Association="SoftUniContext.EmployeeManager">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="Employee1" EntitySet="Employees" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Town">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Address" Relationship="SoftUniContext.AddressTown" FromRole="Town" ToRole="Address" />
+        </EntityType>
+        <EntityType Name="Address">
+          <Key>
+            <PropertyRef Name="AddressId" />
+          </Key>
+          <Property Name="AddressId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AddressText" Type="String" Nullable="false" />
+          <NavigationProperty Name="Town" Relationship="SoftUniContext.AddressTown" FromRole="Address" ToRole="Town" />
+          <Property Name="TownId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employees" Relationship="SoftUniContext.AddressEmployee" FromRole="Address" ToRole="Employee" />
+        </EntityType>
+        <Association Name="AddressTown">
+          <End Type="SoftUniContext.Address" Role="Address" Multiplicity="*" />
+          <End Type="SoftUniContext.Town" Role="Town" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Town">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="TownId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" />
+          <Property Name="LastName" Type="String" Nullable="false" />
+          <Property Name="MiddleName" Type="String" Nullable="false" />
+          <Property Name="JobTitle" Type="String" Nullable="false" />
+          <Property Name="HireDate" Type="DateTime" Nullable="false" />
+          <Property Name="Salary" Type="Decimal" Nullable="false" />
+          <NavigationProperty Name="Address" Relationship="SoftUniContext.AddressEmployee" FromRole="Employee" ToRole="Address" />
+          <Property Name="AddressId" Type="Int32" Nullable="true" />
+          <NavigationProperty Name="Department" Relationship="SoftUniContext.DepartmentEmployee" FromRole="Employee" ToRole="Department" />
+          <Property Name="DepartmentId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="SoftUniContext.ProjectEmployee" FromRole="Employee" ToRole="Project" />
+          <NavigationProperty Name="Managing" Relationship="SoftUniContext.DepartmentManager" FromRole="Employee" ToRole="Department" />
+          <Property Name="ManagerId" Type="String" Nullable="false" />
+          </EntityType>
+        <Association Name="AddressEmployee">
+          <End Type="SoftUniContext.Address" Role="Address" Multiplicity="0..1" />
+          <End Type="SoftUniContext.Employee" Role="Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Address">
+              <PropertyRef Name="AddressId" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="AddressId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DepartmentId" />
+          </Key>
+          <Property Name="DepartmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Employees" Relationship="SoftUniContext.DepartmentEmployee" FromRole="Department" ToRole="Employee" />
+          <NavigationProperty Name="Manager" Relationship="SoftUniContext.DepartmentManager" FromRole="Department" ToRole="Employee" />
+          <Property Name="ManagerId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="DepartmentEmployee">
+          <End Type="SoftUniContext.Department" Role="Department" Multiplicity="1" />
+          <End Type="SoftUniContext.Employee" Role="Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="DepartmentId" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="DepartmentManager">
+          <End Type="SoftUniContext.Department" Role="Department" Multiplicity="*" />
+          <End Type="SoftUniContext.Employee" Role="Employee" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="ManagerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+          </Key>
+          <Property Name="ProjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Employees" Relationship="SoftUniContext.ProjectEmployee" FromRole="Project" ToRole="Employee" />
+        </EntityType>
+        <Association Name="ProjectEmployee">
+          <End Type="SoftUniContext.Project" Role="Project" Multiplicity="*" />
+          <End Type="SoftUniContext.Employee" Role="Employee" Multiplicity="*" />
+        </Association>
+        <Association Name="EmployeeManager">
+          <End Type="SoftUniContext.Employee" Role="Employee" Multiplicity="0..1" />
+          <End Type="SoftUniContext.Employee" Role="Employee1" Multiplicity="1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SoftUniContextStoreContainer" CdmEntityContainer="SoftUniContextContainer">
+    <EntitySetMapping Name="Towns">
+      <EntityTypeMapping TypeName="IsTypeOf(SoftUniContext.Town)">
+        <MappingFragment StoreEntitySet="Towns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="IsTypeOf(SoftUniContext.Address)">
+        <MappingFragment StoreEntitySet="Addresses">
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="AddressText" ColumnName="AddressText" />
+          <ScalarProperty Name="TownId" ColumnName="TownId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="IsTypeOf(SoftUniContext.Employee)">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="JobTitle" ColumnName="JobTitle" />
+          <ScalarProperty Name="HireDate" ColumnName="HireDate" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deaprtments">
+      <EntityTypeMapping TypeName="IsTypeOf(SoftUniContext.Department)">
+        <MappingFragment StoreEntitySet="Deaprtments">
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="IsTypeOf(SoftUniContext.Project)">
+        <MappingFragment StoreEntitySet="Projects">
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ProjectEmployee" TypeName="SoftUniContext.ProjectEmployee" StoreEntitySet="ProjectEmployee">
+      <EndProperty Name="Project">
+        <ScalarProperty Name="ProjectId" ColumnName="Projects_ProjectId" />
+      </EndProperty>
+      <EndProperty Name="Employee">
+        <ScalarProperty Name="Id" ColumnName="Employees_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EmployeeManager" TypeName="SoftUniContext.EmployeeManager" StoreEntitySet="Employees">
+      <EndProperty Name="Employee1">
+        <ScalarProperty Name="Id" ColumnName="EmployeeManager_Employee_Id" />
+      </EndProperty>
+      <EndProperty Name="Employee">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
