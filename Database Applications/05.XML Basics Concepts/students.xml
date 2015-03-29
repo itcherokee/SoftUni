@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students xmlns="urn:students" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:students students.xsd">
+  <student>
+    <name>Minka Manolova</name>
+    <gender>Female</gender>
+    <birth-date>1969-03-20</birth-date>
+    <email>minka@ban.bg</email>
+    <university>Technical University</university>
+    <speciality>Gerontology</speciality>
+    <exams>
+      <exam>
+        <name>Sapromat</name>
+        <date>1989-05-01</date>
+        <grade>3.00</grade>
+      </exam>
+      <exam>
+        <name>Teorethical Electrotechnics 1</name>
+        <date>1989-01-10</date>
+        <grade>4.00</grade>
+      </exam>
+      <exam>
+        <name>Teorethical Electrotechnics 2</name>
+        <date>1989-09-10</date>
+        <grade>3.50</grade>
+      </exam>
+     </exams>
+  </student>
+  <student>
+    <name>Goshko Petrov</name>
+    <gender>Male</gender>
+    <birth-date>2000-03-20</birth-date>
+    <phone-number>0035929700000</phone-number>
+    <!-- optional -->
+    <email>goshko@abv.bg</email>
+    <university>Software University</university>
+    <speciality>Programmer</speciality>
+    <faculty-number>0500112344</faculty-number>
+    <!-- optional -->
+    <exams>
+      <exam>
+        <name>Java Basics</name>
+        <date>2015-01-20</date>
+        <grade>5.55</grade>
+      </exam>
+      <exam>
+        <name>PHP Basics</name>
+        <date>2015-03-20</date>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <name>HTML and CSS Basics</name>
+        <date>2015-02-28</date>
+        <grade>4.50</grade>
+      </exam>
+    </exams>
+  </student>
+</students>
