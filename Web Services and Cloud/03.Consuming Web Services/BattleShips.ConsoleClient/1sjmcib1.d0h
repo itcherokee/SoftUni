@@ -1,0 +1,208 @@
+﻿using System.Collections.Generic;
+using System.Net;
+
+namespace BattleShips.ConsoleClient
+{
+    using System;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+    using Models;
+    using System.Web.Script.Serialization;
+
+    public class BattleShipsClient
+    {
+        // check port of the web services
+        private const string BaseUri = "http://localhost:62858/";
+
+        public static void Main()
+        {
+            Console.WriteLine("Type your commands...");
+            bool gameIsActive = true;
+            while (gameIsActive)
+            {
+                var input = Console.ReadLine();
+                if (input != null)
+                {
+                    var commandInput = input.Trim().Split(new[] { ' ' });
+                    string command = commandInput[0];
+                    var commandObject = new Command();
+                    switch (command)
+                    {
+                        case "register":
+                            // commandObject.Name = "Register";
+                            commandObject.Uri = "api/Account/Register";
+                            if (commandInput.Length == 4)
+                            {
+                                commandObject.Parameters = new[] { commandInput[1], commandInput[2], commandInput[3] };
+                                Register(commandObject)
+                                    .ContinueWith((result) =>
+                                    {
+                                        var status = result.Result.StatusCode;
+                                        Console.WriteLine(status == HttpStatusCode.OK
+                                            ? "Registered"
+                                            : status.ToString());
+                                    });
+                            }
+                            else
+                            {
+                                throw new InvalidOperationException("Invalid parameters specified for the registration.");
+                            }
+                            break;
+                        case "login":
+                            // commandObject.Name = string.Empty;
+                            commandObject.Uri = "Token";
+                            if (commandInput.Length == 3)
+                            {
+                                commandObject.Parameters = new[] { commandInput[1], commandInput[2] };
+                                Authenticate(commandObject)
+                                    .ContinueWith((result) => Console.WriteLine(result.Result.StatusCode == HttpStatusCode.OK ? "Authenticated" : "Invalid Request"));
+                            }
+                            else
+                            {
+                                throw new InvalidOperationException("Invalid .");
+                            }
+                            break;
+                        case "create-game":
+                            commandObject.Name = "create";
+                            commandObject.Uri = "Games";
+                            break;
+                        case "join-game":
+                            commandObject.Name = "join";
+                            commandObject.Uri = "Games";
+                            //  commandObject.Parameters = new[] { commandInput[1] };
+                            break;
+                        case "play":
+                            commandObject.Name = "play";
+                            commandObject.Uri = "Games";
+                            //  commandObject.Parameters = new[] { commandInput[1], commandInput[2], commandInput[3] };
+                            break;
+                        case "exit":
+                            gameIsActive = false;
+                            break;
+                        default:
+                            throw new InvalidOperationException("Unknown command has been executed.");
+                    }
+
+                    //ExecuteCommand(commandObject).Wait();
+                }
+                else
+                {
+                    throw new ArgumentNullException("input", "No input detected. Restart game.");
+
+                }
+            }
+        }
+
+        private static async Task ExecuteCommand<T>(Command command) where T : class
+        {
+            //            using (var client = new HttpClient())
+            //            {
+            //                client.BaseAddress = new Uri(BaseUri);
+            //
+            //                string query = command.Uri;
+            //                StringContent content = new StringContent(command.BindingModel);
+            //                HttpResponseMessage response = await client.PostAsync(query, );
+            //
+            //                if (response.IsSuccessStatusCode)
+            //                {
+            ////                    var content = response.Content.ReadAsStringAsync().Result;
+            ////                    var json = new JavaScriptSerializer().Deserialize<Articles>(content);
+            ////                    if (json != null)
+            ////                    {
+            ////                        foreach (var article in json)
+            ////                        {
+            ////                            Console.WriteLine("\n" + article.Title + "\n" + article.Url);
+            ////                        }
+            ////                    }
+            //                }
+            //                else
+            //                {
+            //                    Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+            //                }
+            //            }
+        }
+
+        private static async Task<HttpResponseMessage> Register(Command command)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(BaseUri);
+
+                string query = command.Uri;
+                //      StringContent content = new StringContent(command.BindingModel);
+                var test = new FormUrlEncodedContent(new List<KeyValuePair<string, string>>
+                {
+                    new KeyValuePair<string, string>("Email", command.Parameters[0]),
+                    new KeyValuePair<string, string>("Password", command.Parameters[1]),
+                    new KeyValuePair<string, string>("ConfirmPassword", command.Parameters[2]),
+
+                });
+
+                HttpContent content = test;
+                HttpResponseMessage response = await client.PostAsync(query, content);
+                return response;
+                //
+                //                if (response.IsSuccessStatusCode)
+                //                {
+                //                    //Console.WriteLine("Registered!");
+                //                    return response;
+                ////                    var content = response.Content.ReadAsStringAsync().Result;
+                ////                    var json = new JavaScriptSerializer().Deserialize<Articles>(content);
+                ////                    if (json != null)
+                ////                    {
+                ////                        foreach (var article in json)
+                ////                        {
+                ////                            Console.WriteLine("\n" + article.Title + "\n" + article.Url);
+                ////                        }
+                ////                    }
+                //                }
+                //                else
+                //                {
+                //                    Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+                //                    return null;
+                //                }
+            }
+        }
+
+        private static async Task<HttpResponseMessage> Authenticate(Command command)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(BaseUri);
+
+                string query = command.Uri;
+                var test = new FormUrlEncodedContent(new List<KeyValuePair<string, string>>
+                {
+                    new KeyValuePair<string, string>("Email", command.Parameters[0]),
+                    new KeyValuePair<string, string>("Password", command.Parameters[1]),
+                    new KeyValuePair<string, string>("ConfirmPassword", command.Parameters[2]),
+
+                });
+
+                HttpContent content = test;
+                HttpResponseMessage response = await client.PostAsync(query, content);
+                return response;
+                //
+                //                if (response.IsSuccessStatusCode)
+                //                {
+                //                    //Console.WriteLine("Registered!");
+                //                    return response;
+                ////                    var content = response.Content.ReadAsStringAsync().Result;
+                ////                    var json = new JavaScriptSerializer().Deserialize<Articles>(content);
+                ////                    if (json != null)
+                ////                    {
+                ////                        foreach (var article in json)
+                ////                        {
+                ////                            Console.WriteLine("\n" + article.Title + "\n" + article.Url);
+                ////                        }
+                ////                    }
+                //                }
+                //                else
+                //                {
+                //                    Console.WriteLine("{0} ({1})", (int)response.StatusCode, response.ReasonPhrase);
+                //                    return null;
+                //                }
+            }
+        }
+    }
+}
