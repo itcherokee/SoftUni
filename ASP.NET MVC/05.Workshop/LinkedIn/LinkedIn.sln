@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn.Web", "Web\LinkedIn.Web\LinkedIn.Web.csproj", "{4A674F07-CC7F-48F2-BED5-C8B91B7CC117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C44D39E1-F090-4C6B-B921-F868697AD581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E8490476-DD99-46FC-A096-54836CDAA0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn.Data", "Data\LinkedIn.Data\LinkedIn.Data.csproj", "{164C2470-2E11-4373-8F6F-7C89943CE2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn.Models", "Data\LinkedIn.Models\LinkedIn.Models.csproj", "{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{3FE5D18C-090D-4FDC-BAF7-1CFF4825EA03}"
+	ProjectSection(SolutionItems) = preProject
+		External Libraries\System.Web.Mvc.Expressions.dll = External Libraries\System.Web.Mvc.Expressions.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A674F07-CC7F-48F2-BED5-C8B91B7CC117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A674F07-CC7F-48F2-BED5-C8B91B7CC117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A674F07-CC7F-48F2-BED5-C8B91B7CC117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A674F07-CC7F-48F2-BED5-C8B91B7CC117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164C2470-2E11-4373-8F6F-7C89943CE2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164C2470-2E11-4373-8F6F-7C89943CE2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164C2470-2E11-4373-8F6F-7C89943CE2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164C2470-2E11-4373-8F6F-7C89943CE2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A674F07-CC7F-48F2-BED5-C8B91B7CC117} = {C44D39E1-F090-4C6B-B921-F868697AD581}
+		{164C2470-2E11-4373-8F6F-7C89943CE2D6} = {E8490476-DD99-46FC-A096-54836CDAA0EA}
+		{A6BA5D13-111B-4D4B-94DA-6894B2F84E4D} = {E8490476-DD99-46FC-A096-54836CDAA0EA}
+	EndGlobalSection
+EndGlobal

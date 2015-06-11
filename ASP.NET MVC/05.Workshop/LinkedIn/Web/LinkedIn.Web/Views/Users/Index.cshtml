@@ -1,0 +1,21 @@
+﻿@model LinkedIn.Web.Models.UserViewModel
+
+<img src="@Model.AvatarUrl" alt="Alternate Text" />
+
+
+
+<br />
+@Html.DisplayNameFor(x => @Model.UserName): @Html.DisplayFor(x => x.UserName)
+<br />
+@Html.DisplayNameFor(x => @Model.FullName): @Html.DisplayFor(x => x.FullName)
+<br />
+@Html.DisplayNameFor(x => @Model.Email): @Html.DisplayFor(x => x.Email)
+<br />
+@Html.DisplayNameFor(x => @Model.ContactInfo.Facebook): @Html.DisplayFor(x => x.ContactInfo.Facebook)
+<br />
+@Html.DisplayNameFor(x => @Model.ContactInfo.Twitter): @Html.DisplayFor(x => x.ContactInfo.Twitter)
+<br />
+@Html.DisplayNameFor(x => @Model.ContactInfo.Website): @Html.DisplayFor(x => x.ContactInfo.Website)
+<br />
+
+@Html.DisplayFor(x=>x.Certifications)
